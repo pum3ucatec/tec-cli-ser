@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ADVENTURE</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180" 
+            href="img/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="img/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="img/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+    >
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px">
+            <span
+                ><a href="#home" style="display: flex; align-items: center"
+                    ><img
+                        class="img2"
+                        src="./img/mountain.png"
+                        width="40"
+                        style="margin: -25px -10px -25px -20px"
+                    />
+                    <h1 class="logo">&nbsp;Bolivia Travel</h1></a
+                ></span
+            >
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" id="pri" class="active cir_border">Hogar</a>
+                </li>
+                <li><a href="#events" id="sec" class="cir_border">Eventos</a></li>
+                <li>
+                    <a href="#explore" id="tri" class="cir_border">Explora</a>
+                </li>
+                <li>
+                    <a href="#tours" id="quad" class="cir_border">Tours</a>
+                </li>
+                <li><a href="#about" id="quint" class="cir_border">Paisajes</a></li>
+                <li>
+                    <a href="#contact" id="hept" class="cir_border">Contacto</a>
+                </li>
+                <li>
+                    <div>
+                        <input
+                            type="checkbox"
+                            class="checkbox dark"
+                            id="checkbox"
+                        />
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class="fa fa-sun-o"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+        </nav>
+        <!--navbar-->
+
+        <header id="home">
+            <div class="header-content">
+                <h2 id="quote">Explora Bolivia</h2>
+                <div class="line"></div>
+                <h1>UN HERMOSO REGALO</h1>
+                <a
+                    href="#about"
+                    class="ctn"
+                    onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'
+                    >Ver mas</a
+                >
+            </div>
+        </header>
+
+        <!--Events-->
+        <section class="events" id="events">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Proximos eventos</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <article class="card col">
+                        <img class="card-img" src="./img/img1.jpeg" />
+                        <h4 class="dark">Carnaval de Oruro</h4>
+                        <p class="font-color">
+                            El Carnaval de Oruro es uno de los eventos más grandes y espectaculares de Bolivia. Con coloridas danzas, disfraces tradicionales y una vibrante atmósfera, este carnaval es una celebración de la cultura andina.
+                        </p>
+                        <a href="#" class="ctn">Mas detalles</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img2.jpg" />
+                        <h4 class="dark">Fiesta de la Virgen de Urkupiña</h4>
+                        <p class="font-color">
+                            Una de las festividades religiosas más importantes en Bolivia, celebrada en la ciudad de Quillacollo, Cochabamba. Esta fiesta atrae a miles de visitantes con danzas folklóricas, procesiones, y eventos culturales.
+                        </p>
+                        <a href="#" class="ctn">Mas detalles</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img3.jpg" />
+                        <h4 class="dark">El Gran Poder</h4>
+                        <p class="font-color">
+                            El Gran Poder es una fiesta religiosa y cultural que rinde homenaje a la Santísima Trinidad. La festividad se distingue por sus imponentes danzas, trajes elaborados y procesiones.
+                        </p>
+                        <a href="#" class="ctn">Mas detalles</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--Events-->
+
+        <!--Explore-->
+        <section class="explore" id="explore">
+            <div class="explore-content">
+                <h1>EXPLORE BOLIVIA</h1>
+                <div class="line"></div>
+                <p>
+                    “Viajar por Bolivia es descubrir la riqueza de su cultura, naturaleza y tradiciones. Cada rincón tiene una historia que contar.” <br />Explorar Bolivia te hará querer empacar tu mochila, tomar el primer bus o vuelo y adentrarte en un país lleno de maravillas naturales y una cultura única.
+                </p>
+                <a href="#" class="ctn">Ver mas</a>
+            </div>
+        </section>
+        <!--Explore-->
+
+        <!--tours-->
+        <section class="tours" id="tours">
+            <div class="container row">
+                <div class="col content-col">
+                    <h1 class="font-color">TOURS & DESTINOS</h1>
+                    <div class="line"></div>
+                    <p>
+                        Mié 28 sept 2023: Recorrido por la ciudad de La Paz y vista panorámica del Valle de la Luna <br />Sáb 1 oct 2023: Tour por las Lagunas de Cotapata.<br />Mar 4 oct 2023: Experiencia en la Ruta del Salar de Uyuni.
+                        <br />
+                        Y muchos más...
+                    </p>
+                    <a href="#" class="ctn">Ver mas</a>
+                </div>
+                <div class="image-col">
+                    <div class="image-gallery">
+                        <img src="./img/img4.png" alt="" />
+                        <img src="./img/img5.png" alt="" />
+                        <img src="./img/img6.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <br /><br /><br /><br />
+        </section>
+        <!--tours-->
+
+        <!-- About -->
+        <section id="about">
+            <div class="title">
+                <h1 class="font-color">Paisajes</h1>
+                <div class="line"></div>
+            </div>
+            <br />
+            <div id="about_us">
+                <div class="boxx">
+                    <div class="containerx">
+                        <input type="radio" name="slider" id="item-1" checked />
+                        <input type="radio" name="slider" id="item-2" />
+                        <input type="radio" name="slider" id="item-3" />
+                        <div class="cards">
+                            <label class="cardt" for="item-1" id="col-img-1">
+                                <img src="./img/carrusel-img1.jpg" />
+                            </label>
+                            <label class="cardt" for="item-2" id="col-img-2">
+                                <img src="./img/carrusel-img2.jpeg" />
+                            </label>
+                            <label class="cardt" for="item-3" id="col-img-3">
+                                <img src="./img/carrusel-img3.jpeg" />
+                            </label>
+                            
+                        </div>
+                    </div>
+                    <span id="about-quad"
+                        ><a href="#home"
+                            ><center>
+                                <h1
+                                    style="
+                                        font-family: var(--ff-montserrat);
+                                        color: white;
+                                    "
+                                >
+                                    Find that
+                                </h1>
+                                <br />
+                                <img
+                                    class="img2"
+                                    src="./img/mountain_dark.jpg"
+                                    width="200"
+                                    style="border-radius: 12%"
+                                />
+                                <br />
+                                <h1 class="logo" style="font-size: 50px">
+                                    ADVENTURE
+                                </h1>
+                            </center>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="title">
+                <h1 class="font-color">Contactanos</h1>
+                <div class="line"></div>
+            </div>
+            <div class="contact_us">
+                <form class="cform" action="" method="post">
+                    <div class="crow-message">
+                        <h1 class="color">Mandanos un mensaje</h1>
+                        <div></div>
+                    </div>
+                    <div class="crow-in">
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Tu nombre"
+                        />
+                        <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Tu email"
+                        />
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <select name="country" id="country">
+                                <option value="IBolivia">India</option>
+                                <option value="Russia">Russia</option>
+                                <option value="Usa">USA</option>
+                                <option value="Japan">Japan</option>
+                                <option value="France">France</option>
+                                <option value="Brazil">Brazil</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <textarea
+                                type="text"
+                                id="remarks"
+                                name="remarks"
+                                placeholder="Tu opinion....."
+                                style="height: 150px"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <input class="crow-s" type="submit" value="Enviar" />
+                </form>
+                <div class="cbox">
+                    <div>
+                        <p class="cbox-message">
+                            Prefieres otra forma ?<br />Comunicate con nosotros a travez de los siguientes metodos
+                        </p>
+                        <div class="cbox-line"></div>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="mailto:abc@gmail.com"
+                            ><i class="fa fa-envelope"></i>
+                            Email: boliviatravel@gmail.com
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="tel:+591-77898978"
+                            ><i class="fa fa-phone"></i>
+                            Telefono: (+591) 77898978
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- contact  -->
+        <!-- up scroll -->
+        <i class="arrow"  onclick="topFunction()" id="upbtn"></i>
+        <!-- end -->
+        <!--footer-->
+        <section class="footer">
+            <span
+                > &#169; 2022 Todos los derechos
+                reservados.</span
+            >
+            
+        </section>
+        <!--footer-->
+
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
