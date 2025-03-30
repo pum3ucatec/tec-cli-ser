@@ -94,3 +94,5 @@ docker rm apache-container
    ```
 
 - **Error con submódulos**: Si al agregar la carpeta de tu proyecto aparece como un submódulo, sigue las instrucciones para eliminarlo del índice de Git o agregarlo correctamente como un submódulo.
+
+![Captura](captura1.png)
