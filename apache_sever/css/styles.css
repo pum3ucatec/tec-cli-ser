@@ -1,0 +1,136 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Azul claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #0288d1; /* Azul más oscuro */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem; /* Tamaño más adecuado */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Sección de introducción */
+.intro {
+    padding: 30px;
+    text-align: center;
+    background-color: #b3e5fc; /* Azul claro */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0288d1;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    width: 70%; /* Ajustamos el tamaño */
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Sección de platos típicos */
+.dishes {
+    padding: 30px;
+    text-align: center;
+    background-color: #b3e5fc; /* Azul claro */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.dishes h2 {
+    font-size: 2.5rem;
+    color: #0288d1;
+    margin-bottom: 30px;
+}
+
+.dish {
+    margin-bottom: 30px; /* Menos espacio entre platos */
+}
+
+.dish img {
+    width: 60%; /* Ajustamos el tamaño */
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.dish h3 {
+    font-size: 1.8rem;
+    color: #0288d1;
+    margin-top: 20px;
+}
+
+/* Sección de bebidas tradicionales */
+.drinks {
+    padding: 30px;
+    text-align: center;
+    background-color: #b3e5fc; /* Azul claro */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.drinks h2 {
+    font-size: 2.5rem;
+    color: #0288d1;
+    margin-bottom: 20px;
+}
+
+.drinks p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.drinks .drink {
+    margin-bottom: 30px;
+}
+
+.drinks img {
+    width: 60%; /* Ajustamos el tamaño */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #0288d1; /* Azul más oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+}
