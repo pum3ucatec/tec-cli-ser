@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword      # Contraseña del usuario root
+      MYSQL_DATABASE: mydatabase            # Nombre de la base de datos a crear
+      MYSQL_USER: user                       # Usuario adicional
+      MYSQL_PASSWORD: userpassword          # Contraseña para el usuario adicional
+    ports:
+      - "3306:3306"                          # Exponer el puerto 3306
+    volumes:
+      - mysql-data:/var/lib/mysql            # Volumen para persistir los datos
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin-container
+    environment:
+      PMA_HOST: mysql                       # Nombre del servicio de MySQL
+      PMA_PORT: 3306                         # Puerto de MySQL
+      MYSQL_ROOT_PASSWORD: rootpassword      # Contraseña del usuario root para PhpMyAdmin
+    ports:
+      - "8080:80"                            # Exponer el puerto 8080 para PhpMyAdmin
+    depends_on:
+      - mysql                                # Asegurarse de que MySQL esté listo antes de iniciar PhpMyAdmin
+
+volumes:
+  mysql-data:
+    driver: local
