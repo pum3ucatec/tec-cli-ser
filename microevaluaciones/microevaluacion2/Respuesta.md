@@ -6,7 +6,7 @@
 Antes de comenzar, asegúrate de tener los siguientes softwares instalados:
 
 - 🔧 **Docker Desktop**: [Descargar Docker](https://www.docker.com/products/docker-desktop)
-- 🧠 **Oracle SQL Developer**: [Descargar SQL Developer](https://www.oracle.com/database/sqldeveloper/technologies/download)
+- 🧠 **Oracle SQL Developer**(Windows 64-bit with JDK 17 included): [Descargar SQL Developer](https://www.oracle.com/database/sqldeveloper/technologies/download)
 
 ---
 
