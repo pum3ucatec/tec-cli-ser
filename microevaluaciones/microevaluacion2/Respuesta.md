@@ -15,6 +15,7 @@ Antes de comenzar, asegúrate de tener los siguientes softwares instalados:
 ```bash
 docker pull container-registry.oracle.com/database/free:latest
 ```
+![Terminal descarga de imagen de docker](imagenes/img1.png)
 
 > 🔐 Es posible que debas iniciar sesión en [container-registry.oracle.com](https://container-registry.oracle.com) y aceptar los términos de uso.
 
