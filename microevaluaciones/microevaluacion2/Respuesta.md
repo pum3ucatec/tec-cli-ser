@@ -34,11 +34,11 @@ docker run -d --name "oracle-local" -p 1521:1521 -e ORACLE_PWD="Ora1234" contain
 
 📌 Parámetros importantes:
 
-- --name oracle-local: Nombre del contenedor.
+- `--name oracle-local`: Nombre del contenedor.
 
-- -p 1521:1521: Expone el puerto 1521, que es el puerto por defecto para Oracle DB.
+- `-p 1521:1521`: Expone el puerto 1521, que es el puerto por defecto para Oracle DB.
 
-- -e ORACLE_PWD="Ora1234": Define la contraseña del usuario SYS y SYSTEM.
+- `-e ORACLE_PWD="Ora1234"`: Define la contraseña del usuario SYS y SYSTEM.
 
 ---
 
@@ -62,20 +62,27 @@ docker logs -f oracle-local
 
 ## 🧩 Paso 4: Conectarse desde SQL Developer
 
-1. Abrir SQL Developer.
-2. Crear nueva conexión:
+1. Abrir Oracle SQL Developer.
+2. Click en "Nueva conexión":
+3. Completa los datos (ejemplo):
 
    | Campo           | Valor        |
-   |------------------|-------------|
+   |-----------------|--------------|
+   | Nombre conexio  | UcatecDB     |
    | Usuario         | SYSTEM       |
    | Contraseña      | Ora1234      |
    | Hostname        | localhost    |
    | Puerto          | 1521         |
    | SID             | FREE         |
+4. Haz click en **Probar** -> Si todo esta bien, da click en **Conectar**.
+
+![Datos Base de datos](imagenes/img5.png)
 
 ---
 
 ## 🧾 Paso 5: Crear y Consultar una Tabla
+
+Una vez conectado, puedes ejecutar los siguientes comandos SQL:
 
 ```sql
 CREATE TABLE persona (
@@ -89,24 +96,13 @@ INSERT INTO persona(id, nombre, edad) VALUES ('1', 'Juan Perez', 25);
 SELECT * FROM persona;
 ```
 
----
-
-## 💾 Paso 6: Habilitar Persistencia de Datos
-
-```bash
-docker run -d \
-  --name oracle-local \
-  -p 1521:1521 \
-  -e ORACLE_PWD="Ora1234" \
-  -v oracle_data:/opt/oracle/oradata \
-  container-registry.oracle.com/database/free:latest
-```
+![Creacion de tabla](imagenes/img6.png)
 
 ---
 
-## 📄 Paso 7: Usar Docker Compose
+## 📄 (Opcional): Usar Docker Compose
 
-Crea un archivo `docker-compose.yml` con el siguiente contenido:
+En lugar de usar un comando largo en terminal, puedes crea un archivo `docker-compose.yml` con esta configuracion dentro:
 
 ```yaml
 version: '3.9'
@@ -127,7 +123,45 @@ volumes:
   oracle_data:
 ```
 
-### ▶️ Comandos útiles:
+📁 Instrucciones:
+
+1. Crea un archivo llamado docker-compose.yml en una carpeta vacía.
+
+2. Pega el contenido anterior en el archivo.
+
+3. En esa misma carpeta, abre una terminal y ejecuta:
+
+```bash
+docker-compose up -d
+```
+
+Esto va a:
+
+- Descargar la imagen de Oracle si no está.
+
+- Crear y levantar el contenedor con persistencia.
+
+- Exponer el puerto 1521.
+
+- Asignar la contraseña Ora1234 al usuario SYSTEM y SYS.
+
+▶️ Comandos útiles con Docker Compose:
+
+-Ver el estado de los servicios:
+```bash
+docker-compose ps
+```
+-Detener los servicios:
+```bash
+docker-compose down
+```
+-Ver logs:
+```bash
+docker-compose logs -f
+```
+---
+
+### ▶️ Algunos comandos útiles:
 
 - Levantar contenedor:
 
@@ -165,23 +199,6 @@ volumes:
   - Verifica la variable `ORACLE_PWD` usada al iniciar el contenedor.
 
 ---
-
-## 📦 Extras Útiles
-
-- Ingresar al contenedor:
-
-  ```bash
-  docker exec -it oracle-local bash
-  ```
-
-- Conectarse con SQL*Plus:
-
-  ```bash
-  sqlplus SYSTEM/Ora1234@//localhost:1521/FREE
-  ```
-
----
-
 ## 🧠 Recomendaciones
 
 - Usa Docker Compose para facilitar la gestión del entorno.
@@ -189,4 +206,3 @@ volumes:
 - Puedes automatizar pruebas SQL dentro del contenedor para desarrollo.
 
 ---
-
