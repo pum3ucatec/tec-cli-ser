@@ -12,24 +12,33 @@ Antes de comenzar, asegúrate de tener los siguientes softwares instalados:
 
 ## 🐳 Paso 1: Descargar la Imagen de Oracle
 
+Oracle ofrece una imagen gratuita para desarrollo desde su Container Registry. Abre tu terminal y ejecuta:
+
 ```bash
 docker pull container-registry.oracle.com/database/free:latest
 ```
 ![Terminal descarga de imagen de docker](imagenes/img1.png)
 
-> 🔐 Es posible que debas iniciar sesión en [container-registry.oracle.com](https://container-registry.oracle.com) y aceptar los términos de uso.
+> 🔐 Nota: Es posible que debas iniciar sesión en [container-registry.oracle.com](https://container-registry.oracle.com) y aceptar los términos de uso.
 
 ---
 
 ## 🚀 Paso 2: Ejecutar el Contenedor
 
+Una vez descargada la imagen, puedes levantar un contenedor con este comando:
+
 ```bash
-docker run -d \
-  --name oracle-local \
-  -p 1521:1521 \
-  -e ORACLE_PWD="Ora1234" \
-  container-registry.oracle.com/database/free:latest
+docker run -d --name "oracle-local" -p 1521:1521 -e ORACLE_PWD="Ora1234" container-registry.oracle.com/database/free:latest
 ```
+![Terminal ejecucion contenedor](imagenes/img2.png)
+
+📌 Parámetros importantes:
+
+- --name oracle-local: Nombre del contenedor.
+
+- -p 1521:1521: Expone el puerto 1521, que es el puerto por defecto para Oracle DB.
+
+- -e ORACLE_PWD="Ora1234": Define la contraseña del usuario SYS y SYSTEM.
 
 ---
 
@@ -37,8 +46,15 @@ docker run -d \
 
 ```bash
 docker ps
+```
+![Deberias ver una salida parecida a esta](imagenes/img3.png)
+
+Puedes ver los logs del contenedor con:
+
+```bash
 docker logs -f oracle-local
 ```
+![Deberias ver una salida parecida a esta](imagenes/img4.png)
 
 🟢 Espera el mensaje: `DATABASE IS READY TO USE!`
 
