@@ -43,7 +43,7 @@ Una vez descargada la imagen, puedes levantar un contenedor con este comando:
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Prueba1234+" `
  -p 1433:1433 --name UcatecSqlserver -d mcr.microsoft.com/mssql/server:2022-latest
 ```
-![Terminal descarga de imagen de docker](./imagenes/img2.png).png)
+![Terminal descarga de imagen de docker](./imagenes/img2.PNG)
 ```bash
 El acento grave (`) al final de la línea permite continuar el comando en otra línea en PowerShell. Si prefieres, puedes poner todo en una sola línea sin el acento.
 ```
@@ -54,14 +54,14 @@ El acento grave (`) al final de la línea permite continuar el comando en otra l
 ```bash
 docker ps
 ```
-![Terminal descarga de imagen de docker](./imagenes/img3.png)
+![Terminal descarga de imagen de docker](./imagenes/img3.PNG)
 
 Para hacer la conexion con la base de datos inserta el comando
 
 ```bash
 sqlcmd -S localhost,1433 -U SA -P "Prueba1234+"
 ```
-![Terminal descarga de imagen de docker](./imagenes/img4.png)
+![Terminal descarga de imagen de docker](./imagenes/img4.PNG)
 
 🟢 Si ves este prompt "1>" quiere decir que estas dentro del motor SQL
 
@@ -89,7 +89,7 @@ GO
 Esto creara la base de datos, la tabla y la insersion de datos en la tabla
 
 
-![Terminal descarga de imagen de docker](./imagenes/img5.png)
+![Terminal descarga de imagen de docker](./imagenes/img5.PNG)
 
 ---
 
@@ -102,7 +102,7 @@ SELECT * FROM Alumno;
 GO
 ```
 
-![Terminal descarga de imagen de docker](./imagenes/img6.png)
+![Terminal descarga de imagen de docker](./imagenes/img6.PNG)
 ---
 
 ## 📄 (Opcional): Ver las bases de datos
@@ -113,6 +113,6 @@ En lugar de usar un comando largo en terminal, puedes crea un archivo `docker-co
 SELECT name FROM sys.databases;
 GO
 ```
-![Terminal descarga de imagen de docker](./imagenes/img7.png)
+![Terminal descarga de imagen de docker](./imagenes/img7.PNG)
 
 Eso es todo lo que tendrias que realizar para levantar SQL Server en Docker.
