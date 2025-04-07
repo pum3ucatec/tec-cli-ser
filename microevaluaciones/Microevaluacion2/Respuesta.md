@@ -29,7 +29,7 @@ SQL Server ofrece una imagen gratuita para desarrollo desde su Container Registr
 ```bash
 docker pull mcr.microsoft.com/mssql/server:2022-latest
 ```
-![Terminal descarga de imagen de docker](./imagenes/img1.png)
+![Terminal descarga de imagen de docker](./imagenes/img1.PNG)
 
 > 🔐 Esto descargara lo que es la imagen para poder ejecutar SQL Server en la terminal
 
