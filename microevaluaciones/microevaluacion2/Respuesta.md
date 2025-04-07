@@ -1,126 +1,124 @@
 
-# 🐳 **Levantando un servidor MySQL con Docker y Volumen Persistente**
+# 📘 Manual: Crear una Base de Datos en SQL Server
 
-Este es el paso a paso de cómo levantar un contenedor de MySQL usando Docker, crear una base de datos llamada `ClienteServidor`, y una tabla llamada `ejemplo1` con los campos `nombre` y `edad`, además de asegurar que los datos se guarden de forma persistente usando un volumen.
+## ✅ Requisitos Previos
 
-## 1. **Instalar Docker**
+Antes de comenzar, asegúrate de tener los siguientes softwares instalados:
 
-Si aún no tienes Docker instalado, ve a la página oficial y sigue los pasos para descargarlo e instalarlo:
-
-- [Descargar Docker](https://www.docker.com/get-started)
-
-## 2. **Levantar el contenedor MySQL con un volumen**
-
-Para levantar un contenedor MySQL, usamos el siguiente comando en la terminal. Este comando hace varias cosas:
-
-```bash
-docker run --name mysql-server   -e MYSQL_ROOT_PASSWORD=12345   -d -p 3306:3306   -v mysql_data:/var/lib/mysql   mysql:latest
-```
-
-**Explicación de cada parte del comando:**
-
-| Parte | Explicación |
-|-------|-------------|
-| `docker run` | Este comando es utilizado para ejecutar un contenedor. |
-| `--name mysql-server` | Asigna un nombre al contenedor para que sea más fácil de identificar. |
-| `-e MYSQL_ROOT_PASSWORD=12345` | Establece la contraseña para el usuario `root` de MySQL. Aquí se usa `12345` como contraseña, pero puedes cambiarla. |
-| `-d` | Ejecuta el contenedor en segundo plano (modo "detached"). |
-| `-p 3306:3306` | Mapea el puerto `3306` del contenedor al puerto `3306` de la máquina local. Esto permite acceder a MySQL desde tu máquina local a través de ese puerto. |
-| `-v mysql_data:/var/lib/mysql` | Crea un volumen persistente llamado `mysql_data` que se monta en el contenedor para almacenar los datos de la base de datos. Esto asegura que los datos se mantendrán incluso si se detiene o elimina el contenedor. |
-| `mysql:latest` | Usa la última versión oficial de la imagen de MySQL. |
-
-Este comando creará un contenedor de MySQL y lo ejecutará,
- ![captura1](imagenes/img1.png)
-
-
-## 3. **Acceder al contenedor MySQL**
-
-Una vez que el contenedor esté corriendo, puedes acceder al cliente de MySQL dentro del contenedor utilizando el siguiente comando:
-
-```bash
-docker exec -it mysql-server mysql -u root -p
-```
-
-**Explicación:**
-
-- `docker exec -it`: Ejecuta un comando dentro del contenedor en modo interactivo.
-- `mysql-server`: Es el nombre del contenedor al que estamos accediendo.
-- `mysql -u root -p`: Llama al cliente de MySQL como el usuario `root`. Se pedirá la contraseña que definimos anteriormente (`12345`).
-
-![captura2](imagenes/image.png)
-
-## 4. **Crear la base de datos `ClienteServidor`**
-
-Una vez dentro del cliente de MySQL, creamos la base de datos llamada `ClienteServidor` con el siguiente comando:
-
-```sql
-CREATE DATABASE ClienteServidor;
-USE ClienteServidor;
-```
-
-**Explicación:**
-
-- `CREATE DATABASE ClienteServidor;`: Crea una nueva base de datos llamada `ClienteServidor`.
-- `USE ClienteServidor;`: Cambia el contexto para empezar a trabajar dentro de la base de datos `ClienteServidor`.
-
-## 5. **Crear la tabla `ejemplo1`**
-
-Ahora, dentro de la base de datos `ClienteServidor`, creamos una tabla llamada `ejemplo1` con los siguientes campos:
-
-```sql
-CREATE TABLE ejemplo1 (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100),
-    edad INT
-);
-```
-
-**Explicación:**
-
-- `id`: identificador único que se autoincrementa.
-- `nombre`: campo de texto (cadena de caracteres) para almacenar el nombre del estudiante.
-- `edad`: campo numérico para almacenar la edad del estudiante.
-
-## 6. **Insertar un registro de ejemplo**
-
-Para insertar un registro en la tabla `ejemplo1`, usamos el siguiente comando:
-
-```sql
-INSERT INTO ejemplo1 (nombre, edad) VALUES ('Andrea', 21);
-```
-![captura3](imagenes/image3.png)
-
-
-**Explicación:**
-
-- `INSERT INTO ejemplo1 (nombre, edad) VALUES ('Andrea', 21);`: Inserta un registro en la tabla `ejemplo1` con el nombre `Andrea` y la edad `21`.
-
-Para verificar que el dato se ha insertado correctamente, usamos:
-
-```sql
-SELECT * FROM ejemplo1;
-```
-
-Este comando nos muestra todos los registros en la tabla `ejemplo1`.
-
-## 7. **Detener el contenedor MySQL**
-
-Si deseas detener el contenedor, puedes hacerlo con el siguiente comando:
-
-```bash
-docker stop mysql-server
-```
-
-Esto detendrá el contenedor de MySQL sin eliminarlo, por lo que podrás reiniciarlo más tarde y mantener los datos.
-
-## 8. **Iniciar el contenedor MySQL cuando lo necesites**
-
-Para iniciar nuevamente el contenedor y seguir con los datos guardados, usa:
-
-```bash
-docker start mysql-server
-```
+- 🔧 **Docker Desktop**: [Descargar Docker](https://www.docker.com/products/docker-desktop)
 
 ---
 
+## 🐳 Paso 1: Descargar la Imagen de SQL Server
 
+SQL Server ofrece una imagen gratuita para desarrollo desde su Container Registry. Abre tu terminal y ejecuta:
+
+```bash
+docker pull mcr.microsoft.com/mssql/server:2022-latest
+```
+![Terminal descarga de imagen de docker](imagenes/img1.png)
+
+> 🔐 Esto descargara lo que es la imagen para poder ejecutar SQL Server en la terminal
+
+---
+
+## 🚀 Paso 2: Ejecutar el Contenedor
+
+Una vez descargada la imagen, puedes levantar un contenedor con este comando:
+
+```bash
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Prueba1234+" `
+ -p 1433:1433 --name UcatecSqlserver -d mcr.microsoft.com/mssql/server:2022-latest
+```
+![Terminal ejecucion contenedor](imagenes/img2.png)
+```bash
+El acento grave (`) al final de la línea permite continuar el comando en otra línea en PowerShell. Si prefieres, puedes poner todo en una sola línea sin el acento.
+```
+
+
+## 🔍 Paso 3: Verificar que el contenedor esté corriendo
+
+```bash
+docker ps
+```
+![Deberias ver una salida parecida a esta](imagenes/img3.png)
+
+Para hacer la conexion con la base de datos inserta el comando
+
+```bash
+sqlcmd -S localhost,1433 -U SA -P "Prueba1234+"
+```
+![Deberias ver una salida parecida a esta](imagenes/img4.png)
+
+🟢 Si ves este prompt "1>" quiere decir que estas dentro del motor SQL
+
+---
+
+## 🧩 Paso 4: Crear la base de datos Ucatec
+
+En el prompt de sqlcmd, ejecuta:
+```bash
+CREATE DATABASE Ucatec;
+GO
+USE Ucatec;
+GO
+CREATE TABLE Alumno (
+    Id INT PRIMARY KEY,
+    Nombre NVARCHAR(50),
+    Edad INT
+);
+GO
+INSERT INTO Alumno (Id, Nombre, Edad) VALUES (1, 'Juan Pérez', 22);
+INSERT INTO Alumno (Id, Nombre, Edad) VALUES (2, 'Ana López', 23);
+INSERT INTO Alumno (Id, Nombre, Edad) VALUES (3, 'Luis García', 21);
+GO
+```
+Esto creara la base de datos, la tabla y la insersion de datos en la tabla
+
+
+![Datos Base de datos](imagenes/img5.png)
+
+---
+
+## 🧾 Paso 5: Consultar Tabla
+
+Una vez conectado, puedes ejecutar los siguientes comandos SQL:
+
+```sql
+SELECT * FROM Alumno;
+GO
+```
+
+![Creacion de tabla](imagenes/img6.png)
+
+---
+
+## 📄 (Opcional): Ver las bases de datos
+
+En lugar de usar un comando largo en terminal, puedes crea un archivo `docker-compose.yml` con esta configuracion dentro:
+
+```sql
+SELECT name FROM sys.databases;
+GO
+```
+![Ver bases de datos](imagenes/img7.png)
+
+## Recomendaciones
+Puede que se encuentres errores al querer entrar en el contenedor de SQL server como este:
+```
+OCI runtime exec failed: exec failed: unable to start container process: exec: "/opt/mssql-tools/bin/sqlcmd": stat /opt/mssql-tools/bin/sqlcmd: no such file or directory: unknown
+```
+Ese error significa que el comando sqlcmd no está disponible en esa imagen de SQL Server, lo cual es normal porque algunas imágenes de Microsoft no lo incluyen por defecto.
+### Solución rapida
+La solución rapida a este problema es descargar el cliente oficial de linea de comandos sqlcmd con este codigo:
+```
+winget install --id Microsoft.Sqlcmd --source winget
+```
+Esto instalará la versión oficial del cliente de línea de comandos sqlcmd
+
+### Verifica que se instaló
+Inserta el codigo:
+```
+sqlcmd -?
+```
+Si ves información del comando, ¡estás listo!
