@@ -37,22 +37,39 @@ Antes de empezar, asegúrate de tener lo siguiente instalado en tu sistema:
 
 1. Crea un archivo `docker-compose.yml` en tu proyecto con el siguiente contenido:
    ```yaml
-    version: '3.8'
+   version: '3.8'
 
-    services:
-    mongo:
-        image: mongo:latest
-        container_name: mongo_container
-        ports:
-        - "27017:27017"
-        environment:
-        - MONGO_INITDB_ROOT_USERNAME=root
-        - MONGO_INITDB_ROOT_PASSWORD=4582
-        volumes:
-        - mongo_data:/data/db
+   services:
+   mongo:
+      image: mongo:latest
+      container_name: mongo
+      restart: always
+      ports:
+         - "27017:27017"
+      environment:
+         MONGO_INITDB_ROOT_USERNAME: root
+         MONGO_INITDB_ROOT_PASSWORD: 4582
+      volumes:
+         - mongo_data:/data/db
 
-    volumes:
-        mongo_data:
+   mongo-express:
+      image: mongo-express:latest
+      container_name: mongo-express
+      restart: always
+      ports:
+         - "8081:8081"
+      environment:
+         ME_CONFIG_MONGODB_SERVER: mongo
+         ME_CONFIG_MONGODB_PORT: 27017
+         ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+         ME_CONFIG_MONGODB_AUTH_DATABASE: admin
+         ME_CONFIG_MONGODB_USERNAME: root
+         ME_CONFIG_MONGODB_PASSWORD: 4582
+         ME_CONFIG_BASICAUTH_USERNAME: admin
+         ME_CONFIG_BASICAUTH_PASSWORD: admin123
+
+   volumes:
+   mongo_data:
 
 
    ```
