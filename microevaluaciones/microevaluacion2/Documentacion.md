@@ -33,6 +33,7 @@ Antes de empezar, asegúrate de tener lo siguiente instalado en tu sistema:
    mongosh --version
    ```
 ![alt text](image-1.png)
+
 ## Paso 2: Crear un contenedor Docker con MongoDB
 
 1. Crea un archivo `docker-compose.yml` en tu proyecto con el siguiente contenido:
@@ -40,38 +41,40 @@ Antes de empezar, asegúrate de tener lo siguiente instalado en tu sistema:
    version: '3.8'
 
    services:
-   mongo:
-      image: mongo:latest
-      container_name: mongo
-      restart: always
-      ports:
-         - "27017:27017"
-      environment:
-         MONGO_INITDB_ROOT_USERNAME: root
-         MONGO_INITDB_ROOT_PASSWORD: 4582
-      volumes:
-         - mongo_data:/data/db
+     mongo:
+       image: mongo:latest
+       container_name: mongodb
+       restart: always
+       ports:
+         - "27018:27017"
+       volumes:
+         - mongodb_data:/data/db
+       networks:
+         - mongo_network
 
-   mongo-express:
-      image: mongo-express:latest
-      container_name: mongo-express
-      restart: always
-      ports:
+     mongo-express:
+       image: mongo-express:latest
+       container_name: mongo-express
+       restart: always
+       ports:
          - "8081:8081"
-      environment:
+       environment:
          ME_CONFIG_MONGODB_SERVER: mongo
          ME_CONFIG_MONGODB_PORT: 27017
-         ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
-         ME_CONFIG_MONGODB_AUTH_DATABASE: admin
-         ME_CONFIG_MONGODB_USERNAME: root
-         ME_CONFIG_MONGODB_PASSWORD: 4582
          ME_CONFIG_BASICAUTH_USERNAME: admin
          ME_CONFIG_BASICAUTH_PASSWORD: admin123
+       depends_on:
+         - mongo
+       networks:
+         - mongo_network
 
    volumes:
-   mongo_data:
+     mongodb_data:
+       driver: local
 
-
+   networks:
+     mongo_network:
+       driver: bridge
    ```
 
 2. En la misma carpeta donde guardaste el archivo `docker-compose.yml`, abre la terminal y ejecuta:
@@ -79,23 +82,18 @@ Antes de empezar, asegúrate de tener lo siguiente instalado en tu sistema:
    docker-compose up -d
    ```
 
-   Esto descargará la imagen de MongoDB y creará un contenedor llamado `mongo_container`.
-
-3. Verifica que el contenedor está corriendo:
+3. Verifica que los contenedores están corriendo:
    ```bash
    docker ps
    ```
-![alt text](image-2.png)
+![alt text](image-11.png)
 
 ## Paso 3: Crear una base de datos en MongoDB desde Mongo Compass
 
 1. Abre **Mongo Compass** e ingresa los siguientes detalles de conexión:
    - **Hostname**: `localhost`
-   - **Puerto**: `27017`
-   - **Autenticación**: Selecciona "Username/Password" y usa:
-     - Usuario: `root`
-     - Contraseña: `4582`
-   - **Base de Datos de Autenticación**: `admin`
+   - **Puerto**: `27018`
+   - **Autenticación**: No es necesaria en esta configuración
 
    ![alt text](image-3.png)
    
@@ -128,11 +126,9 @@ Repite el proceso para agregar más datos de alumnos si lo deseas.
 
 1. Accede al contenedor Docker donde se está ejecutando MongoDB:
    ```bash
-   docker exec -it mongo_container mongosh -u root -p 4582 --authenticationDatabase admin --host localhost --port 27017
+   docker exec -it mongodb mongosh
    ```
 ![alt text](image-6.png)
-
-   Este comando te permitirá ingresar al shell de MongoDB (`mongosh`) de tu contenedor.
 
 2. **Ver las bases de datos**:
    Una vez dentro de `mongosh`, puedes ver las bases de datos disponibles con:
@@ -161,6 +157,17 @@ Repite el proceso para agregar más datos de alumnos si lo deseas.
    db.alumnos.find().pretty()
    ```
    ![alt text](image-10.png)
+
+## Paso 6: Acceder a Mongo Express (Interfaz Web)
+
+1. Abre tu navegador y ve a:
+   ```
+   http://localhost:8081
+   ```
+
+2. Usa las siguientes credenciales:
+   - Usuario: `admin`
+   - Contraseña: `admin123`
 
 ## Conclusión
 
