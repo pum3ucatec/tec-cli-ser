@@ -11,5 +11,6 @@ namespace e3_csharp.Data
         }
 
         public DbSet<Person> Persons { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
     }
 }

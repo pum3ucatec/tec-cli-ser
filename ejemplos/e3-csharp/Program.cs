@@ -14,7 +14,7 @@ internal class Program
         builder.Services.AddControllersWithViews();
 
         builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlServer(Environment.GetEnvironmentVariable("DEFAULT_CONNECTION")));
 
         var app = builder.Build();
 
