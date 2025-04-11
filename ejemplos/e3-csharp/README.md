@@ -72,3 +72,6 @@ dotnet ef database update
 dotnet build
 dotnet ef migrations add AddSubject
 dotnet ef database update
+
+
+dotnet aspnet-codegenerator controller -name SubjectController -m Subject -dc ApplicationDbContext -outDir Controllers -scripts\n
