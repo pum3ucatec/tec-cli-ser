@@ -74,4 +74,7 @@ dotnet ef migrations add AddSubject
 dotnet ef database update
 
 
+dotnet tool install --global dotnet-aspnet-codegenerator
+
+
 dotnet aspnet-codegenerator controller -name SubjectController -m Subject -dc ApplicationDbContext -outDir Controllers -scripts\n
