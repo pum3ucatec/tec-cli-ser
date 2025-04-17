@@ -55,26 +55,47 @@ Tu aplicación MVC básica en C# ya está lista para ser editada, extendida o de
 
 Conexiones a base de datos y comandos de integracion
 
+Agregar paquetes para trabajar con SqlServer y Entity Framework
+
+```
 dotnet add package Microsoft.Data.SqlClient
 dotnet add package DotNetEnv
-
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.Tools
+```
 
+Compilar el proyecto
+```
 dotnet build
+```
+
+Ejecutar un proyecto
+
+```
+dotnet run
+```
+
+Para crear o actualizar la base de datos
+```
+dotnet ef database update
+```
 
 dotnet ef migrations add InitialCreate
 
-dotnet ef database update
+Comando para crear una migracion, para actualizar la base de datos
 
-dotnet build
+```
 dotnet ef migrations add AddSubject
-dotnet ef database update
+```
 
-
+Instala el tool `dotnet-aspnet-codegenerator`
+```
 dotnet tool install --global dotnet-aspnet-codegenerator
+```
 
-
-dotnet aspnet-codegenerator controller -name SubjectController -m Subject -dc ApplicationDbContext -outDir Controllers -scripts\n
+Generador de controladores y vistas de acuerdo a una Modelo
+```
+dotnet aspnet-codegenerator controller -name SubjectController -m Subject -dc ApplicationDbContext -outDir Controllers -scripts
+```

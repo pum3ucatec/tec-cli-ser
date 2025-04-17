@@ -20,5 +20,5 @@ Otra opcion es utilizar directamente este comando para visualizar que el manejad
 
 
 ```
-docker exec -it sqlserver_test /opt/mssql-tools18/bin/sqlcmd -S localhost -U SA -P "**********" -C -d master -Q "SELECT name FROM sys.databases;"
+docker exec -it container_name /opt/mssql-tools18/bin/sqlcmd -S localhost -U SA -P "your_password" -C -d master -Q "SELECT name FROM sys.databases;"
 ```
