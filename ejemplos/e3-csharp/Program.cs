@@ -5,7 +5,7 @@ using e3_csharp.Data;
 internal class Program
 {
     private static void Main(string[] args)
-    {
+    {  
         Env.Load();
 
         var builder = WebApplication.CreateBuilder(args);
@@ -33,11 +33,10 @@ internal class Program
 
         app.MapStaticAssets();
 
+        // Cambié la ruta para usar Classroom como controlador predeterminado
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}")
-            .WithStaticAssets();
-
+            pattern: "{controller=Classroom}/{action=Index}/{id?}");
 
         app.Run();
     }
