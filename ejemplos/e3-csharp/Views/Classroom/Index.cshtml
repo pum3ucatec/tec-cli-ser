@@ -1,0 +1,36 @@
+@model IEnumerable<e3_csharp.Models.Classroom>
+
+@{
+    ViewData["Title"] = "Classrooms";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Código</th>
+            <th>Nombre</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var classroom in Model)
+        {
+            <tr>
+                <td>@classroom.Id</td>
+                <td>@classroom.Codigo</td>
+                <td>@classroom.Nombre</td>
+                <td>@classroom.Estado</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Classroom", new { id = classroom.Id })">Editar</a> |
+                    <a href="@Url.Action("Delete", "Classroom", new { id = classroom.Id })">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "Classroom")" class="btn btn-primary">Crear Aula</a>
