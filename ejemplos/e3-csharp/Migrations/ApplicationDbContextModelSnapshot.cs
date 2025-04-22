@@ -45,6 +45,30 @@ namespace e3_csharp.Migrations
                     b.ToTable("Clashrooms");
                 });
 
+            modelBuilder.Entity("e3_csharp.Models.Classroom", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Codigo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Estado")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Classrooms");
+                });
+
             modelBuilder.Entity("e3_csharp.Models.Person", b =>
                 {
                     b.Property<int>("ID")

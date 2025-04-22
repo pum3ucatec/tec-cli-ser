@@ -13,5 +13,6 @@ namespace e3_csharp.Data
         public DbSet<Person> Persons { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Clashroom> Clashrooms { get; set; }
+        public DbSet<Classroom> Classrooms { get; set; }
     }
 }
