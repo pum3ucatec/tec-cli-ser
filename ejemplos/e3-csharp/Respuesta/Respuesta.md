@@ -1,6 +1,6 @@
 # Documentación del Proyecto Classroom
 
-Este archivo documenta el proceso de agregado el modelo `Classroom` en la aplicación ASP.NET MVC
+Este archivo documenta el proceso de agregado el modelo `Classroom` en la aplicación ASP.NET  MVC
 
 
 ## 📦 Añadir Classroom al Proyecto
