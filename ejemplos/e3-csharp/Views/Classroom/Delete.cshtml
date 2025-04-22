@@ -5,44 +5,53 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eliminar Aula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
-<body>
+<body class="bg-light">
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Classroom</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Code)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Code)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
+<div class="container py-5">
+    <h2 class="text-danger mb-4">🗑️ Confirmar Eliminación</h2>
+
+    <div class="alert alert-warning">
+        ¿Estás seguro de que deseas eliminar esta aula? Esta acción no se puede deshacer.
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <dl class="row mb-0">
+                <dt class="col-sm-3">Código:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Code)</dd>
+
+                <dt class="col-sm-3">Nombre:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                <dt class="col-sm-3">Estado:</dt>
+                <dd class="col-sm-9">
+                    @if (Model.Status == "AC")
+                    {
+                        <span class="badge bg-success">Activa</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactiva</span>
+                    }
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="Delete" class="mt-4 d-flex gap-2">
         <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <button type="submit" class="btn btn-danger">❌ Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">↩️ Cancelar</a>
     </form>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
