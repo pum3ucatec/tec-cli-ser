@@ -99,3 +99,15 @@ Generador de controladores y vistas de acuerdo a una Modelo
 ```
 dotnet aspnet-codegenerator controller -name SubjectController -m Subject -dc ApplicationDbContext -outDir Controllers -scripts
 ```
+## Arquitectura CLIENTE - SERVIDOR
+
+```
+dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
+```
+
+```
+dotnet add package Swashbuckle.AspNetCore
+```
+
+Cartar esta url en el browser
+[swagger](http://localhost:5134/swagger/index.html)
