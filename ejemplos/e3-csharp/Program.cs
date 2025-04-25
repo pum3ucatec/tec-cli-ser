@@ -22,9 +22,9 @@ internal class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo 
-            { 
-                Title = "Person API", 
+            c.SwaggerDoc("v1", new OpenApiInfo
+            {
+                Title = "Person API",
                 Version = "v1",
                 Description = "API para manejo de personas"
             });
@@ -57,7 +57,7 @@ internal class Program
         {
             // Habilita Swagger solo en desarrollo
             app.UseSwagger();
-            app.UseSwaggerUI(c => 
+            app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Person API V1");
             });
@@ -69,13 +69,11 @@ internal class Program
 
         app.UseAuthorization();
 
-        app.MapStaticAssets();
-
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}")
-            .WithStaticAssets();
-        
+            pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
         app.MapControllers();
 
         app.Run();
