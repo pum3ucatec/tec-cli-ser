@@ -1,7 +1,9 @@
+// DataPage.tsx
 import { useState, useEffect } from 'react';
-import DataTable from '../components/DataTable.tsx';
-import { Person } from '../types/data';
-import { getPersons } from '../services/api';
+import PersonsDataTable from '../components/PersonsDataTable.tsx';
+import { Person } from '../types/data.ts';
+import { getPersons } from '../services/personApi.ts';
+import { Link } from 'react-router-dom';  // Importa Link para la navegación
 
 const DataPage = () => {
   const [data, setData] = useState<Person[]>([]);
@@ -34,8 +36,17 @@ const DataPage = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <div className="mb-4">
+        {/* Botón o enlace para crear una nueva persona */}
+        <Link to="/create">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+            Crear Nueva Persona
+          </button>
+        </Link>
+      </div>
+
       <h1 className="text-2xl font-bold mb-6">Listado de Personas</h1>
-      <DataTable data={data} />
+      <PersonsDataTable data={data} />
     </div>
   );
 };
