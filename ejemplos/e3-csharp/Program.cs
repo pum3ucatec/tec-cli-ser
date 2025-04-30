@@ -16,21 +16,21 @@ internal class Program
 
         // Agrega soporte para API controllers
         builder.Services.AddControllers()
-            .AddNewtonsoftJson(); // Configuración para Newtonsoft.Json
+            .AddNewtonsoftJson();
 
         // Configuración de Swagger
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo
-            {
-                Title = "Person API",
+            c.SwaggerDoc("v1", new OpenApiInfo 
+            { 
+                Title = "Person API", 
                 Version = "v1",
                 Description = "API para manejo de personas"
             });
         });
 
-        // Configuración de CORS (DEBE ESTAR ANTES de builder.Build())
+        // Configuración de CORS
         builder.Services.AddCors(options =>
         {
             options.AddPolicy("AllowSpecificOrigin",
@@ -50,12 +50,10 @@ internal class Program
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Home/Error");
-            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
             app.UseHsts();
         }
         else
         {
-            // Habilita Swagger solo en desarrollo
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
@@ -66,13 +64,12 @@ internal class Program
         app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
-
         app.UseAuthorization();
 
+        // Mapas válidos
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
-
 
         app.MapControllers();
 
