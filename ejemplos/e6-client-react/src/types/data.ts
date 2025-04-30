@@ -4,3 +4,10 @@ export interface Person {
   lastName: string;
   status: string;
 }
+
+export interface Subject {
+  id: number;
+  name: string;
+  description: string;
+  status: string;
+}
