@@ -8,7 +8,7 @@ export default function CreateSubjectPage() {
 
   const handleCreate = async (data: Omit<Subject, 'id'>) => {
     await createSubject(data);
-    navigate('/'); // Regresa al listado
+    navigate('/subjects'); // Regresa al listado
   };
 
   return (

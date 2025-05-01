@@ -6,7 +6,7 @@ interface SubjectFormProps {
   onSubmit: (data: Omit<Subject, 'id'>) => void; // Aquí también especificamos el tipo
 }
 
-export default function PersonForm({ initialData, onSubmit }: SubjectFormProps) {
+export default function SubjectForm({ initialData, onSubmit }: SubjectFormProps) {
   const [formData, setFormData] = useState<Omit<Subject, 'id'>>(initialData || {
     name: '',
     description: '',
@@ -29,7 +29,7 @@ export default function PersonForm({ initialData, onSubmit }: SubjectFormProps) 
     <form onSubmit={handleSubmit} className="flex flex-col gap-4">
       <input
         type="text"
-        name="firstName"
+        name="name"
         placeholder="Name"
         value={formData.name}
         onChange={handleChange}
@@ -38,7 +38,7 @@ export default function PersonForm({ initialData, onSubmit }: SubjectFormProps) 
       />
       <input
         type="text"
-        name="lastName"
+        name="description"
         placeholder="Description"
         value={formData.description}
         onChange={handleChange}

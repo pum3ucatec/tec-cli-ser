@@ -5,6 +5,7 @@ import CreatePersonPage from '../pages/CreatePersonPage';
 import EditPersonPage from '../pages/EditPersonPage';
 import ListSubjetsPage from '../pages/ListSubjectsPage';
 import CreateSubjectPage from '../pages/CreateSubjectPage';
+import EditSubjectPage from '../pages/EditSubjectPage';
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,6 @@ export const router = createBrowserRouter([
   },
   {
     path: "/subjects/edit/:id",
-    element: <EditPersonPage />,
+    element: <EditSubjectPage />,
   },
 ]);

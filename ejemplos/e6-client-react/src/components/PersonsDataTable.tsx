@@ -16,7 +16,7 @@ const PersonsDataTable = ({ data }: DataTableProps) => {
             <th className="py-2 px-4 border-b">Nombre</th>
             <th className="py-2 px-4 border-b">Apellido</th>
             <th className="py-2 px-4 border-b">Estado</th>
-            <th className="py-2 px-4 border-b">Acciones</th>  {/* Nueva columna para acciones */}
+            <th className="py-2 px-4 border-b">Acciones</th> 
           </tr>
         </thead>
         <tbody>
@@ -27,7 +27,6 @@ const PersonsDataTable = ({ data }: DataTableProps) => {
               <td className="py-2 px-4 border-b text-center">{item.lastName}</td>
               <td className="py-2 px-4 border-b">{item.status}</td>
               <td className="py-2 px-4 border-b text-center">
-                {/* Botón de edición con un enlace a la página de edición */}
                 <Link to={`/edit/${item.id}`} className="text-blue-500 hover:text-blue-700">
                   Editar
                 </Link>
