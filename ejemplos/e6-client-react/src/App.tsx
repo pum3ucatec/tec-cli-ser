@@ -1,36 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { useState } from 'react'
 import ClassroomTable from './components/ClassroomTable'
+import BookTable from './components/BookTable'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [view, setView] = useState('home')
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="container mt-4">
+      <h1>React Tables Navigation</h1>
+      <div className="mb-4">
+        <button className="btn btn-primary me-2" onClick={() => setView('classroom')}>Ver Aulas</button>
+        <button className="btn btn-success" onClick={() => setView('book')}>Ver Libros</button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <ClassroomTable />
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      {view === 'classroom' && <ClassroomTable />}
+      {view === 'book' && <BookTable />}
+      {view === 'home' && (
+        <div className="alert alert-info">Selecciona una tabla para visualizar los datos.</div>
+      )}
+    </div>
   )
 }
 
