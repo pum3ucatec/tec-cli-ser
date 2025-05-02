@@ -33,9 +33,9 @@ internal class Program
         // Configuración de CORS (DEBE ESTAR ANTES de builder.Build())
         builder.Services.AddCors(options =>
         {
-            options.AddPolicy("AllowSpecificOrigin",
+            options.AddPolicy("AllowLocalOrigins",
                 builder => builder
-                    .WithOrigins("http://localhost:3000")
+                    .WithOrigins("http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials());
@@ -67,6 +67,9 @@ internal class Program
         app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
+
+        // Agregar CORS antes de UseAuthorization
+        app.UseCors("AllowLocalOrigins");
 
         app.UseAuthorization();
 

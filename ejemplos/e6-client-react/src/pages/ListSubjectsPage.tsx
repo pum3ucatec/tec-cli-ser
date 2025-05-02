@@ -1,11 +1,11 @@
 // DataPage.tsx
 import { useState, useEffect } from 'react';
 import SubjectsDataTable from '../components/SubjectsDataTable.tsx';
-import { Subject } from '../types/data.ts';
-import { getSubjects } from '../services/subjectApi.ts';
+import { Subject } from '../types/data';
+import { getSubjects } from '../services/subjectApi';
 import { Link } from 'react-router-dom';  // Importa Link para la navegación
 
-const DataPage = () => {
+const ListSubjectsPage = () => {
   const [data, setData] = useState<Subject[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -51,4 +51,4 @@ const DataPage = () => {
   );
 };
 
-export default DataPage;
+export default ListSubjectsPage;

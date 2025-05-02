@@ -1,11 +1,11 @@
 // DataPage.tsx
 import { useState, useEffect } from 'react';
-import PersonsDataTable from '../components/PersonsDataTable.tsx';
+import PersonsDataTable from '../components/PersonsDataTable';
 import { Person } from '../types/data.ts';
 import { getPersons } from '../services/personApi.ts';
 import { Link } from 'react-router-dom';  // Importa Link para la navegación
 
-const DataPage = () => {
+const ListPersonsPage = () => {
   const [data, setData] = useState<Person[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -13,11 +13,13 @@ const DataPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        setLoading(true);
+        setError(null);
         const persons = await getPersons();
         setData(persons);
       } catch (err) {
-        setError('Error al cargar los datos. Por favor, inténtelo de nuevo.');
-        console.error(err);
+        console.error('Error en fetchData:', err);
+        setError('Error al cargar los datos. Por favor, verifica que el servidor esté corriendo en http://localhost:5135');
       } finally {
         setLoading(false);
       }
@@ -27,11 +29,33 @@ const DataPage = () => {
   }, []);
 
   if (loading) {
-    return <div className="text-center py-8">Cargando datos...</div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
+          <p className="mt-4 text-gray-600">Cargando datos...</p>
+        </div>
+      </div>
+    );
   }
 
   if (error) {
-    return <div className="text-center py-8 text-red-500">{error}</div>;
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+          <strong className="font-bold">Error: </strong>
+          <span className="block sm:inline">{error}</span>
+          <div className="mt-4">
+            <p className="text-sm">Por favor, asegúrate de que:</p>
+            <ul className="list-disc list-inside text-sm mt-2">
+              <li>El servidor de la API esté corriendo en http://localhost:5135</li>
+              <li>La base de datos esté configurada correctamente</li>
+              <li>No haya problemas de CORS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -51,4 +75,4 @@ const DataPage = () => {
   );
 };
 
-export default DataPage;
+export default ListPersonsPage;
