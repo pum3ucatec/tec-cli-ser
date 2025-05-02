@@ -14,7 +14,7 @@ Antes de comenzar, asegurate de tener instalado lo siguiente:
 
 Añadimos los distintos modulos para classroom:
 
-![Generar controlador y vista](images/moduloañadidos.png)
+![Generar controlador y vista](images/modulosañadidos.png)
 
 Aqui esta la vista de vite:
 ![Generar controlador y vista](images/vite.png)
