@@ -10,7 +10,16 @@ Antes de comenzar, asegurate de tener instalado lo siguiente:
 - ⚙️ **Node.js LTS** [Descargar Node.js](https://nodejs.org/en)
 
 ---
+# 📘 Inciso 2
 
+Añadimos los distintos modulos para classroom:
+
+![Generar controlador y vista](images/moduloañadidos.png)
+
+Aqui esta la vista de vite:
+![Generar controlador y vista](images/vite.png)
+
+## Al final no dio bien :c
 
 # 📘 Inciso 3
 ## 📝  Paso 1: Crear el Modelo F1pilot
@@ -49,8 +58,6 @@ Después de agregar el modelo al contexto, compilamos nuevamente el proyecto par
 ```bash
 dotnet build
 ```
-
-![dotnet build](images/build3.png)
 
 Luego generamos automáticamente el controlador y las vistas CRUD para el modelo `F1pilot` usando el generador de scaffolding:
 
