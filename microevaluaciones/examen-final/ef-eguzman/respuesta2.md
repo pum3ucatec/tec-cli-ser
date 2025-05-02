@@ -44,6 +44,8 @@ export interface Classroom {
 
 ## 4. Servicio de API para Classroom
 
+![alt text](image-4.png)
+
 Se creó el archivo `src/services/classroomApi.ts` para manejar las peticiones HTTP al backend:
 
 ```ts
@@ -74,6 +76,8 @@ export const deleteClassroom = async (id: number) => { /* ... */ };
 ---
 
 ## 6. Enrutamiento
+
+![alt text](image-3.png)
 
 Se agregaron las rutas en `src/router/Router.tsx`:
 
@@ -114,23 +118,17 @@ La aplicación estará disponible en `http://localhost:5173/classrooms`.
 
 ### Imagen 1: Estructura del proyecto
 
-![Estructura del proyecto](ruta/a/imagen1.png)
+![alt text](image.png)
 
 ### Imagen 2: Listado de Classrooms
 
-![Listado de Classrooms](ruta/a/imagen2.png)
+![alt text](image-1.png)
 
 ### Imagen 3: Formulario de Crear Classroom
 
-![Crear Classroom](ruta/a/imagen3.png)
+![alt text](image-2.png)
 
-### Imagen 4: Editar Classroom
 
-![Editar Classroom](ruta/a/imagen4.png)
-
-### Imagen 5: Detalles de Classroom
-
-![Detalles Classroom](ruta/a/imagen5.png)
 
 ---
 
