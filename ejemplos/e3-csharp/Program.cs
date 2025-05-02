@@ -41,8 +41,9 @@ internal class Program
                     .AllowCredentials());
         });
 
+        // Configuración de la base de datos
         builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Environment.GetEnvironmentVariable("DEFAULT_CONNECTION")));
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         var app = builder.Build();
 
