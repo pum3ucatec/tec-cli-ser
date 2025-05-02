@@ -47,7 +47,7 @@ namespace e3_csharp.Controllers
         // POST: Classroom/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Code,Name,Status")] Classroom classroom)
+        public async Task<IActionResult> Create([Bind("Name,Capacity,Location,IsActive")] Classroom classroom)
         {
             if (ModelState.IsValid)
             {
@@ -77,7 +77,7 @@ namespace e3_csharp.Controllers
         // POST: Classroom/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Code,Name,Status")] Classroom classroom)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Capacity,Location,IsActive")] Classroom classroom)
         {
             if (id != classroom.ID)
             {
