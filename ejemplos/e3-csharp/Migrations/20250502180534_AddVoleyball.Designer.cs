@@ -11,8 +11,8 @@ using e3_csharp.Data;
 namespace e3_csharp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250409181235_AddSubject")]
-    partial class AddSubject
+    [Migration("20250502180534_AddVoleyball")]
+    partial class AddVoleyball
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,31 @@ namespace e3_csharp.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("e3_csharp.Models.Classroom", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Classrooms");
+                });
 
             modelBuilder.Entity("e3_csharp.Models.Person", b =>
                 {
@@ -72,6 +97,31 @@ namespace e3_csharp.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Subjects");
+                });
+
+            modelBuilder.Entity("e3_csharp.Models.Voleyball", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Coach")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Schedule")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TeamName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Voleyballs");
                 });
 #pragma warning restore 612, 618
         }
