@@ -73,6 +73,8 @@ dotnet add package Swashbuckle.AspNetCore
 🌐 Abre Swagger en el navegador:
 http://localhost:5134/swagger/index.html
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚛️ Proyecto Cliente con React (e6-client-react)
 ▶️ Iniciar el servidor backend (en carpeta e3-csharp)
 
