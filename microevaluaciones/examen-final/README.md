@@ -79,7 +79,7 @@ Se generaron las siguientes vistas en Views/Kick:
 
 ### 4. Migración
 ![alt text](image-4.png)
-Se creó la migración 20250502202734_CreateKickTable que:
+- Se creó la migración 20250502202734_CreateKickTable que:
 - Crea la tabla Kicks
 - Define las columnas y sus tipos
 - Establece las restricciones necesarias
