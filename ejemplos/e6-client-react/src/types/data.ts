@@ -11,3 +11,18 @@ export interface Subject {
   description: string;
   status: string;
 }
+
+export interface Classroom {
+  id?: number;
+  code: string;
+  name: string;
+  status: string;
+}
+
+export interface Voleyball {
+  id?: number;
+  teamName: string;
+  coach: string;
+  schedule: string;
+}
+
