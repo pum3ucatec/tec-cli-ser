@@ -23,7 +23,7 @@ TABLA  Y REALIZA API BACKED CON 3 CAMPOS.
 
 ## 💻 Cómo ejecutar el proyecto
 
-```bash
+
 # Clonar el repositorio
 git clone https://github.com/pum3ucatec/tec-cli-ser.git
 
@@ -53,7 +53,7 @@ public class Kick
 
 
 ### 2. Controladores
-Se implementaron dos controladores:
+- Se implementaron dos controladores:
 
 #### KickController (MVC)
 - Index: Lista todos los entrenamientos
@@ -68,7 +68,9 @@ Se implementaron dos controladores:
 - POST /api/Kick: Crea nuevo entrenamiento
 - PUT /api/Kick/{id}: Actualiza entrenamiento
 - DELETE /api/Kick/{id}: Elimina entrenamiento
+
 ![alt text](image-2.png)
+
 ### 3. Vistas
 ![alt text](image-3.png)
 Se generaron las siguientes vistas en Views/Kick:
@@ -118,3 +120,5 @@ dotnet aspnet-codegenerator controller -name KickController -m Kick -dc Applicat
 ## Referencias
 - GUID del Proyecto: C3038BE5-58A7-4D6E-D141-D55989755244
 - GUID de la Solución: E169EE97-E6F5-4925-A4E1-65F19BB76982
+ 
+
