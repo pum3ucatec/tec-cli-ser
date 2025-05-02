@@ -11,3 +11,9 @@ export interface Subject {
   description: string;
   status: string;
 }
+export interface Classroom {
+  id: number;
+  codigo: string;
+  nombre: string;
+  estado: boolean;
+}
