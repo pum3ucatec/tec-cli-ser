@@ -36,7 +36,7 @@ public class Voleyball
 ```
 
 📸 **Captura del modelo:**  
-![ModeloVoleyball](images/modeloclassroom.png)
+![ModeloVoleyball](images/modelovoleyball.png)
 
 ---
 
