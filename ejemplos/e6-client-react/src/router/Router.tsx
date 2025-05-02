@@ -6,6 +6,10 @@ import EditPersonPage from '../pages/EditPersonPage';
 import ListSubjetsPage from '../pages/ListSubjectsPage';
 import CreateSubjectPage from '../pages/CreateSubjectPage';
 import EditSubjectPage from '../pages/EditSubjectPage';
+import ListClassroomsPage from '../pages/ListClassroomsPage';
+import CreateClassroomPage from '../pages/CreateClassroomPage';
+import EditClassroomPage from '../pages/EditClassroomPage';
+import DetailsClassroomPage from '../pages/DetailsClassroomPage';
 
 export const router = createBrowserRouter([
   {
@@ -31,5 +35,21 @@ export const router = createBrowserRouter([
   {
     path: "/subjects/edit/:id",
     element: <EditSubjectPage />,
+  },
+  {
+    path: "/classrooms",
+    element: <ListClassroomsPage />,
+  },
+  {
+    path: "/classrooms/create",
+    element: <CreateClassroomPage />,
+  },
+  {
+    path: "/classrooms/edit/:id",
+    element: <EditClassroomPage />,
+  },
+  {
+    path: "/classrooms/details/:id",
+    element: <DetailsClassroomPage />,
   },
 ]);

@@ -11,3 +11,10 @@ export interface Subject {
   description: string;
   status: string;
 }
+
+export interface Classroom {
+  id: number;
+  code: string;
+  name: string;
+  status: string;
+}
