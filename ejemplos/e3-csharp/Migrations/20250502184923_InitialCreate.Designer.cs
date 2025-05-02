@@ -11,8 +11,8 @@ using e3_csharp.Data;
 namespace e3_csharp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250502180534_AddVoleyball")]
-    partial class AddVoleyball
+    [Migration("20250502184923_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -5,7 +5,7 @@
 namespace e3_csharp.Migrations
 {
     /// <inheritdoc />
-    public partial class AddVoleyball : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

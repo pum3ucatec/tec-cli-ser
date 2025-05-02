@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using e3_csharp.Data;
@@ -10,95 +7,64 @@ namespace e3_csharp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VolleyballApiController : ControllerBase
+    public class ClassroomApiController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
-        public VolleyballApiController(ApplicationDbContext context)
+        public ClassroomApiController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/VolleyballApi
+        // GET: api/ClassroomApi
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Voleyball>>> GetVolleyballs()
+        public async Task<ActionResult<IEnumerable<Classroom>>> GetClassrooms()
         {
-            return await _context.Voleyballs.ToListAsync();
+            return await _context.Classrooms.ToListAsync();
         }
 
-        // GET: api/VolleyballApi/5
+        // GET: api/ClassroomApi/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Voleyball>> GetVolleyball(int id)
+        public async Task<ActionResult<Classroom>> GetClassroom(int id)
         {
-            var volleyball = await _context.Voleyballs.FindAsync(id);
-
-            if (volleyball == null)
-            {
-                return NotFound();
-            }
-
-            return volleyball;
+            var classroom = await _context.Classrooms.FindAsync(id);
+            if (classroom == null) return NotFound();
+            return classroom;
         }
 
-        // PUT: api/VolleyballApi/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutVolleyball(int id, Voleyball volleyball)
-        {
-            if (id != volleyball.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(volleyball).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!VolleyballExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/VolleyballApi
+        // POST: api/ClassroomApi
         [HttpPost]
-        public async Task<ActionResult<Voleyball>> PostVolleyball(Voleyball volleyball)
+        public async Task<ActionResult<Classroom>> PostClassroom(Classroom classroom)
         {
-            _context.Voleyballs.Add(volleyball);
+            _context.Classrooms.Add(classroom);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetVolleyball", new { id = volleyball.Id }, volleyball);
+            return CreatedAtAction(nameof(GetClassroom), new { id = classroom.ID }, classroom);
         }
 
-        // DELETE: api/VolleyballApi/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteVolleyball(int id)
+        // PUT: api/ClassroomApi/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutClassroom(int id, Classroom classroom)
         {
-            var volleyball = await _context.Voleyballs.FindAsync(id);
-            if (volleyball == null)
-            {
-                return NotFound();
-            }
-
-            _context.Voleyballs.Remove(volleyball);
+            if (id != classroom.ID) return BadRequest();
+            _context.Entry(classroom).State = EntityState.Modified;
             await _context.SaveChangesAsync();
-
             return NoContent();
         }
 
-        private bool VolleyballExists(int id)
+        // DELETE: api/ClassroomApi/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteClassroom(int id)
         {
-            return _context.Voleyballs.Any(e => e.Id == id);
+            var classroom = await _context.Classrooms.FindAsync(id);
+            if (classroom == null) return NotFound();
+            _context.Classrooms.Remove(classroom);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        private bool ClassroomExists(int id)
+        {
+            return _context.Classrooms.Any(e => e.ID == id);
         }
     }
 }
