@@ -137,3 +137,159 @@ Proyecto desarrollado con ❤️ usando React
 
 # En el react
 ![alt text](images/image-2.png)
+
+
+
+
+
+# ⚽ Proyecto - Tabla `Soccer`
+
+Este proyecto es una aplicación ASP.NET Core MVC con Entity Framework Core. Aquí documentamos cómo se creó la tabla `Soccer`, incluyendo el modelo, la base de datos, controladores y vistas Razor (CRUD).
+
+---
+
+## 🧱 1. Crear el Modelo `Soccer`
+
+Ubicación: `Models/Soccer.cs`
+
+```csharp
+using System.ComponentModel.DataAnnotations;
+
+namespace e3_csharp.Models
+{
+    public class Soccer
+    {
+        public int Id { get; set; }
+
+        [Required]
+        public string NombreEquipo { get; set; }
+
+        public bool Estado { get; set; }
+    }
+}
+```
+
+---
+
+## 🧩 2. Registrar la Tabla en `ApplicationDbContext`
+
+Ubicación: `Data/ApplicationDbContext.cs`
+
+Agrega lo siguiente:
+
+```csharp
+public DbSet<Soccer> Soccers { get; set; }
+```
+
+Ejemplo:
+
+```csharp
+public class ApplicationDbContext : DbContext
+{
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
+    {
+    }
+
+    public DbSet<Soccer> Soccers { get; set; }
+}
+```
+
+---
+
+## 🛠 3. Crear la Migración y Actualizar la Base de Datos
+
+### Paso 1: Crear la migración
+
+```bash
+dotnet ef migrations add CreateSoccerTable
+```
+
+### Paso 2: Aplicar la migración
+
+```bash
+dotnet ef database update
+```
+
+Esto crea la tabla `Soccers` en la base de datos.
+
+---
+
+## 🚀 4. Generar Controladores y Vistas
+
+### Opción 1: Manual (ya creado)
+
+Ubicación:
+
+- `Controllers/SoccerController.cs`
+- `Controllers/SoccerApiController.cs`
+- `Views/Soccer/`:
+  - `Create.cshtml`
+  - `Edit.cshtml`
+  - `Delete.cshtml`
+  - `Details.cshtml`
+  - `Index.cshtml`
+
+Estos archivos permiten realizar operaciones CRUD completas desde la interfaz web o API.
+
+---
+
+## 📋 5. Vistas Incluidas (`Views/Soccer/`)
+
+Todas las vistas Razor necesarias para crear, leer, actualizar y eliminar registros `Soccer`.
+
+| Vista        | Función                         |
+|--------------|----------------------------------|
+| `Index`      | Listar equipos                   |
+| `Create`     | Formulario para agregar          |
+| `Edit`       | Editar datos de un equipo        |
+| `Delete`     | Confirmar eliminación            |
+| `Details`    | Ver información de un equipo     |
+
+---
+
+## 🧪 6. Probar en Navegador
+
+Ejecuta la app con:
+
+```bash
+dotnet run
+```
+
+Y accede a:
+
+```
+https://localhost:[puerto]/Soccer
+```
+
+---
+
+## 📝 Requisitos Previos
+
+- ASP.NET Core 7.0 o superior
+- EF Core instalado
+- Configurada la cadena de conexión en `appsettings.json`
+- Herramienta CLI de EF instalada:
+
+```bash
+dotnet tool install --global dotnet-ef
+```
+
+---
+
+## 📌 Notas
+
+- `Estado` indica si el equipo está activo (`true`) o inactivo (`false`).
+- Puedes usar Swagger para probar el controlador `SoccerApiController`.
+
+---
+
+## Resultado de la tabla Soccer
+
+# En el csharp
+![alt text](images/image-3.png)
+
+# En el swagger
+![alt text](images/image-4.png)
+
+

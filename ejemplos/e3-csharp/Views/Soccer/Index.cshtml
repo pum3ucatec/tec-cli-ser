@@ -1,0 +1,35 @@
+@model IEnumerable<e3_csharp.Models.Soccer>
+
+@{
+    ViewData["Title"] = "Soccer Teams";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a href="@Url.Action("Create")">Create New Soccer Team</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.NombreEquipo)</th>
+            <th>@Html.DisplayNameFor(model => model.Estado)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NombreEquipo</td>
+                <td>@item.Estado</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.Id })">Edit</a> |
+                    <a href="@Url.Action("Details", new { id = item.Id })">Details</a> |
+                    <a href="@Url.Action("Delete", new { id = item.Id })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

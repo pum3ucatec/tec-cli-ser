@@ -1,0 +1,33 @@
+@model e3_csharp.Models.Soccer
+
+@{
+    ViewData["Title"] = "Edit Soccer Team";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Soccer</h4>
+<hr />
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    
+    <div class="form-group">
+        <label asp-for="NombreEquipo" class="control-label"></label>
+        <input asp-for="NombreEquipo" class="form-control" />
+        <span asp-validation-for="NombreEquipo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Estado" class="control-label"></label>
+        <input asp-for="Estado" type="checkbox" />
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
+
+<div>
+    <a href="@Url.Action("Index")">Back to List</a>
+</div>

@@ -1,0 +1,18 @@
+@model e3_csharp.Models.Soccer
+
+@{
+    ViewData["Title"] = "Soccer Team Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <h3>@Model.NombreEquipo</h3>
+    <p><strong>Estado:</strong> @(Model.Estado ? "Active" : "Inactive")</p>
+</div>
+
+<div>
+    <a href="@Url.Action("Edit", new { id = Model.Id })">Edit</a> |
+    <a href="@Url.Action("Delete", new { id = Model.Id })">Delete</a> |
+    <a href="@Url.Action("Index")">Back to List</a>
+</div>

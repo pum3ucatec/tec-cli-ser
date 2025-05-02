@@ -24,9 +24,34 @@ internal class Program
         {
             c.SwaggerDoc("v1", new OpenApiInfo 
             { 
-                Title = "Person API", 
+                Title = "API de Gestión", 
                 Version = "v1",
-                Description = "API para manejo de personas"
+                Description = "API para manejo de personas y jugadores de fútbol"
+            });
+            
+            // Configurar el esquema de seguridad para Swagger
+            c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+            {
+                Description = "JWT Authorization header using the Bearer scheme.",
+                Name = "Authorization",
+                In = ParameterLocation.Header,
+                Type = SecuritySchemeType.ApiKey,
+                Scheme = "Bearer"
+            });
+            
+            c.AddSecurityRequirement(new OpenApiSecurityRequirement
+            {
+                {
+                    new OpenApiSecurityScheme
+                    {
+                        Reference = new OpenApiReference
+                        {
+                            Type = ReferenceType.SecurityScheme,
+                            Id = "Bearer"
+                        }
+                    },
+                    new string[] {}
+                }
             });
         });
 
@@ -35,7 +60,7 @@ internal class Program
         {
             options.AddPolicy("AllowLocalOrigins",
                 builder => builder
-                    .WithOrigins("http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176")
+                    .WithOrigins("http://localhost:5135", "http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials());
@@ -60,7 +85,8 @@ internal class Program
             app.UseSwagger();
             app.UseSwaggerUI(c => 
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Person API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API de Gestión V1");
+                c.RoutePrefix = string.Empty; // Mover Swagger a la raíz
             });
         }
 

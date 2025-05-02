@@ -10,7 +10,7 @@ using e3_csharp.Models;
 namespace e3_csharp.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]  // Esto hará que la ruta sea /api/PersonsApi
+    [Route("api/[controller]/[action]")]
     public class PersonsApiController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -20,8 +20,8 @@ namespace e3_csharp.Controllers
             _context = context;
         }
 
-        // GET: api/PersonsApi
-        [HttpGet]
+        // GET: api/PersonsApi/GetAll
+        [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<Person>>> GetPersons()
         {
             return await _context.Persons.ToListAsync();
