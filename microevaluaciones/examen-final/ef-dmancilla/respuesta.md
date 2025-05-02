@@ -19,7 +19,7 @@ Añadimos los distintos modulos para classroom:
 Aqui esta la vista de vite:
 ![Generar controlador y vista](images/vite.png)
 
-## Al final no dio bien :c
+## Al final no dio bien :c :c
 
 # 📘 Inciso 3
 ## 📝  Paso 1: Crear el Modelo F1pilot
