@@ -35,7 +35,7 @@ internal class Program
         {
             options.AddPolicy("AllowSpecificOrigin",
                 builder => builder
-                    .WithOrigins("http://localhost:3000")
+                    .WithOrigins("http://localhost:5173")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials());
@@ -66,7 +66,7 @@ internal class Program
         app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
-
+        app.UseCors("AllowSpecificOrigin");
         app.UseAuthorization();
 
         app.MapStaticAssets();
