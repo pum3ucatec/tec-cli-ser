@@ -1,8 +1,5 @@
-# 📘 Guía: Crear y Ejecutar un Proyecto MVC en C# con .NET + SQL Server
+# 📘 Guía: Examen Final
 
-Este documento explica paso a paso cómo configurar un entorno de desarrollo para una aplicación MVC en C# usando .NET 9.0, SQL Server, Docker y Entity Framework Core.
-
----
 
 ## ✅ Requisitos Previos
 
@@ -10,6 +7,7 @@ Antes de comenzar, asegurate de tener instalado lo siguiente:
 
 - 🐳 **Docker Desktop** [Descargar Docker](https://www.docker.com/products/docker-desktop)
 - ⚙️ **.NET SDK 9.0** [Descargar .NET](https://dotnet.microsoft.com/es-es/download)
+- ⚙️ **Node.js LTS** [Descargar Node.js](https://nodejs.org/en)
 
 ---
 
