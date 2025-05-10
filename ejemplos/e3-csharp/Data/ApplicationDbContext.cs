@@ -14,5 +14,6 @@ namespace e3_csharp.Data
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Classroom> Classrooms { get; set; }
         public DbSet<Team> Teams { get; set; }
+        public DbSet<Career> Careers { get; set; }
     }
 }

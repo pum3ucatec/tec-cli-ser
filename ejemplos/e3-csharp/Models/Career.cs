@@ -2,16 +2,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace e3_csharp.Models
 {
-    public class Team
+    public class Career
     {
-        [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [Required]
-        [StringLength(100)]
         public string Name { get; set; } = string.Empty;
 
         [Required]
-        public bool Status { get; set; }
+        public string Description { get; set; } = string.Empty;
     }
 } 
