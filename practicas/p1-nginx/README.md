@@ -20,3 +20,11 @@ docker pull nginx
 
 ## **Nota: Documentar todos los comandos utilzados en el CLI**
 
+## Especificaciones
+Crear una rama con su nombre
+
+```
+QuelaliGaston/Practica1
+```
+
+Modificar el README.md para colocar las evidencias de la practica.
