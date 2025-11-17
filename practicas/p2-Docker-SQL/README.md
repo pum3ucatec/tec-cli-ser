@@ -148,7 +148,7 @@ docker exec -it mssql /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'YourCom
 
 ## Ejemplo
 
-![](/Images/SQL-Consola.PNG)
+![](./Images/SQL-Consola.PNG)
 
 
 ### 3.2 Crear un archivo `.sql` y usar **Adminer** (interfaz web) mediante `localhost`
@@ -176,7 +176,7 @@ docker exec -it mssql /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'YourCom
 
 ## Ejemplo
 
-![](/Images/SQL-UI.PNG)
+![](./Images/SQL-UI.PNG)
 
 ---
 
