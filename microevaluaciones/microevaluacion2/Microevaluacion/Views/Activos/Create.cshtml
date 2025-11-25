@@ -1,0 +1,31 @@
+@model MiProyectoActivos.Models.Activo
+
+<h2>Crear Activo</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+
+    <div>
+        <label>Categoria</label>
+        <input asp-for="Categoria" class="form-control" />
+    </div>
+
+    <div>
+        <label>Descripcion</label>
+        <textarea asp-for="Descripcion" class="form-control"></textarea>
+    </div>
+
+    <div>
+        <label>Fecha de Adquisición</label>
+        <input asp-for="FechaAdquisicion" type="date" class="form-control" />
+    </div>
+
+    <button type="submit">Guardar</button>
+</form>
+
+<p>
+    <a asp-action="Index">Volver a la lista</a>
+</p>
