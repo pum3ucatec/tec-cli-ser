@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to CompanyAssets</h1>
+    <p>Sistema de Gestión de Activos Empresariales</p>
+    
+    <!-- ✅ AGREGAR ESTOS BOTONES -->
+    <div class="mt-5">
+        <h3>Gestión de Activos</h3>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">📊 Control de Activos</h5>
+                        <p class="card-text">Administra todos los activos de la empresa: computadoras, muebles, equipos, etc.</p>
+                        <a href="/Asset" class="btn btn-primary btn-lg">Ir a Gestión de Activos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            <p>O también puedes:</p>
+            <a href="/Asset/Create" class="btn btn-success">➕ Crear Nuevo Activo</a>
+            <a href="/Asset" class="btn btn-info">📋 Ver Lista Completa</a>
+        </div>
+    </div>
+</div>

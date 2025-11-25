@@ -1,0 +1,8 @@
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.csproj.AssemblyReference.cache
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.AssemblyInfoInputs.cache
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.AssemblyInfo.cs
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.RazorAssemblyInfo.cache
+C:\Users\ALAN\OneDrive\Desktop\Tareas Cliente Servidor\CompanyAssets\obj\Debug\net8.0\CompanyAssets.RazorAssemblyInfo.cs
