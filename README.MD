@@ -1,8 +1,8 @@
-MVC Gestión de Activos (CompanyAssets)
+# MVC Gestión de Activos (CompanyAssets)
 
 Este repositorio contiene una implementación profesional de un sistema CRUD (Crear, Leer, Actualizar, Eliminar) para activos. El objetivo es demostrar cómo construir una aplicación escalable utilizando ASP.NET Core MVC y SQL Server.
 
-Requisitos Previos: ¿Qué necesitas?
+## Requisitos Previos: ¿Qué necesitas?
 
 Para ejecutar o reconstruir este proyecto, tu entorno de desarrollo debe cumplir con lo siguiente:
 
@@ -12,7 +12,7 @@ Para ejecutar o reconstruir este proyecto, tu entorno de desarrollo debe cumplir
 | **SQL Server** | Motor de base de datos. | `Get-Service "MSSQL$SQLEXPRESS"` |
 | **VS Code** | Editor de código. | `code --version` |
 
-Arquitectura y Flujo: ¿Cómo funciona?
+## Arquitectura y Flujo: ¿Cómo funciona?
 
 El proyecto sigue el patrón MVC (Modelo-Vista-Controlador) con un enfoque Code-First:
 
@@ -85,7 +85,7 @@ namespace CompanyAssets.Models
     }
 }
 ```
-![alt text](image2.png)
+![alt text](/IMAGES/image2.png)
 
 #### El Contexto de Datos (ApplicationDbContext.cs)
 
