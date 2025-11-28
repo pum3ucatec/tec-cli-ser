@@ -8,14 +8,14 @@
 docker pull mongo:latest
 ```
 ---
-![alt text](/mongo-data/images/DOCKER%20PULL%20MONGO.png)
+![alt text](/Practicas_Alan_Colque/Practica_2_mongo-data/images/DOCKER%20PULL%20MONGO.png)
 ---
 ### Paso 2: Crear Directorio para Datos
 ```Terminal
 mkdir mongo-data
 cd mongo-data
 ```
-![alt text](/mongo-data/images/dIR.png)
+![alt text](/Practicas_Alan_Colque/Practica_2_mongo-data/images/dIR.png)
 ---
 
 ### Paso 3: Ejecutar Contenedor MongoDB
@@ -40,7 +40,7 @@ docker ps
 ```
 docker logs mongodb-container
 ```
-![alt text](/mongo-data/images/DOCKERRUN.png)
+![alt text](/Practicas_Alan_Colque/Practica_2_mongo-data/images/DOCKERRUN.png)
 ---
 
 ### Paso 5: Conectarse al Contenedor MongoDB
@@ -52,7 +52,7 @@ docker exec -it mongodb-container mongosh `
   -p password123 `
   --authenticationDatabase admin
 ```
-![alt text](/mongo-data/images/Captura%20de%20pantalla%202025-11-16%20183324.png)
+![alt text](/Practicas_Alan_Colque/Practica_2_mongo-data/images/Captura%20de%20pantalla%202025-11-16%20183324.png)
 ---
 ### Paso 6: Comandos Básicos de MongoDB
 #### Una vez dentro de MongoDB Shell, ejecuta estos comandos:
