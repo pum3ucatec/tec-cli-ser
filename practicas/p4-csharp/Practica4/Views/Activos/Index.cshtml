@@ -1,0 +1,28 @@
+@model IEnumerable<MiProyectoActivos.Models.Activo>
+
+<h2>Lista de Activos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Categoria</th>
+            <th>Descripción</th>
+            <th>Fecha Adquisición</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nombre</td>
+                <td>@item.Categoria</td>
+                <td>@item.Descripcion</td>
+                <td>@item.FechaAdquisicion.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
