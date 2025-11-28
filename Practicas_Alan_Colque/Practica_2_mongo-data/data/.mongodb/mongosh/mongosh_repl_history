@@ -1,0 +1,49 @@
+db.empleados.find({ activo: true })
+db.empleados.find()
+show collections
+])
+  }
+    activo: false
+    habilidades: ["Python", "Django", "API REST"],
+    fecha_contratacion: new Date("2022-06-20"),
+    departamento: "TI",
+    salario: 55000,
+    puesto: "Desarrolladora Backend",
+    edad: 28,
+    nombre: "Ana Martínez",
+  {
+  },
+    activo: true
+    habilidades: ["Scrum", "Gestión", "Planificación"],
+    fecha_contratacion: new Date("2020-03-10"),
+    departamento: "Gestión",
+    salario: 75000,
+    puesto: "Gerente de Proyecto",
+    edad: 35,
+    nombre: "Carlos López",
+  {
+  },
+    activo: true
+    habilidades: ["Figma", "Photoshop", "UI/UX"],
+    fecha_contratacion: new Date("2023-01-15"),
+    departamento: "Diseño",
+    salario: 45000,
+    puesto: "Diseñadora UX",
+    edad: 25,
+    nombre: "María García",
+  {
+db.empleados.insertMany([
+})
+  activo: true
+  habilidades: ["JavaScript", "Node.js", "MongoDB"],
+  fecha_contratacion: new Date(),
+  departamento: "TI",
+  salario: 50000,
+  puesto: "Desarrollador",
+  edad: 30,
+  nombre: "Juan Pérez",
+db.empleados.insertOne({
+show collections
+db.createCollection("empleados")
+use mi_empresa
+show dbs
