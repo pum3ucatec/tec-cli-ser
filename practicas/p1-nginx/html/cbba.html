@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cochabamba - La Llajta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">Cochabamba</h1>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#lugares">Lugares</a></li>
+                    <li><a href="#gastronomia">Gastronomía</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Bienvenidos a Cochabamba</h1>
+                <p class="subtitle">"La Llajta" - Ciudad de la Eterna Primavera</p>
+                <button class="cta-button" onclick="scrollToSection('historia')">Descubrir Más</button>
+            </div>
+        </section>
+
+        <section id="historia" class="section">
+            <div class="container">
+                <h2>Historia y Cultura</h2>
+                <div class="content-grid">
+                    <div class="text-content">
+                        <p>Cochabamba, fundada el 15 de agosto de 1571, es conocida como la "Ciudad de la Eterna Primavera" por su clima templado durante todo el año.</p>
+                        <p>Su nombre proviene del quechua "Qochapampa" que significa "llanura de lagunas". Es la tercera ciudad más poblada de Bolivia y un importante centro económico y cultural.</p>
+                        <ul class="features-list">
+                            <li>🌄 Altitud: 2,570 msnm</li>
+                            <li>🏙️ Población: +1.5 millones de habitantes</li>
+                            <li>📅 Fundación: 15 de Agosto de 1571</li>
+                            <li>🏛️ Fundador: Gerónimo de Osorio</li>
+                        </ul>
+                    </div>
+                    <div class="image-content">
+                        <div class="placeholder-image">Imagen del Cristo de la Concordia</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="lugares" class="section bg-light">
+            <div class="container">
+                <h2>Lugares Imperdibles</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Cristo de la Concordia</h3>
+                        <p>Estatua de Cristo más grande del mundo, con 34.20 metros de altura. Ofrece una vista panorámica espectacular de la ciudad.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Palacio Portales</h3>
+                        <p>Majestuosa mansión construida por el magnate del estaño Simón I. Patiño, rodeada de hermosos jardines estilo francés.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Mercado de la Cancha</h3>
+                        <p>Uno de los mercados al aire libre más grandes de Sudamérica, lleno de colores, sabores y tradiciones.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Parque Nacional Tunari</h3>
+                        <p>Área protegida con impresionantes paisajes montañosos, ideal para el trekking y observación de flora y fauna.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gastronomia" class="section">
+            <div class="container">
+                <h2>Gastronomía Cochabambina</h2>
+                <div class="food-grid">
+                    <div class="food-item">
+                        <h3>🍖 Pique a lo Macho</h3>
+                        <p>Delicioso plato de carne, salchichas, papas fritas y ají.</p>
+                    </div>
+                    <div class="food-item">
+                        <h3>🌽 Choclo con Queso</h3>
+                        <p>Maíz tierno acompañado de queso fresco, un clásico.</p>
+                    </div>
+                    <div class="food-item">
+                        <h3>🥘 Silpancho</h3>
+                        <p>Arroz, papas, carne empanizada y huevo frito.</p>
+                    </div>
+                    <div class="food-item">
+                        <h3>🍹 Mocochinchi</h3>
+                        <p>Bebida tradicional de duraznos secos hervidos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section bg-light">
+            <div class="container">
+                <h2>Galería de Imágenes</h2>
+                <div class="gallery">
+                    <div class="gallery-item">Cristo de la Concordia</div>
+                    <div class="gallery-item">Plaza 14 de Septiembre</div>
+                    <div class="gallery-item">Palacio Portales</div>
+                    <div class="gallery-item">Mercado de la Cancha</div>
+                    <div class="gallery-item">Parque Nacional Tunari</div>
+                    <div class="gallery-item">Comida típica</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cochabamba - La Llajta. Todos los derechos reservados.</p>
+            <p>¡Ven y descubre la magia de nuestra tierra!</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Efecto de navbar al hacer scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(44, 62, 80, 0.95)';
+            } else {
+                navbar.style.background = 'rgba(44, 62, 80, 0.9)';
+            }
+        });
+    </script>
+</body>
+</html>

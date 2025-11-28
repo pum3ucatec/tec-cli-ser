@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  # Servicio de MySQL
+  mysql:
+    image: mysql:8.0
+    container_name: xamp-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: app_db
+      MYSQL_USER: app_user
+      MYSQL_PASSWORD: userpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql/init:/docker-entrypoint-initdb.d
+    networks:
+      - xamp-network
+
+  # Servicio de PHP-FPM
+  php:
+    image: php:8.2-fpm
+    container_name: xamp-php
+    restart: unless-stopped
+    volumes:
+      - ./php/www:/var/www/html
+    networks:
+      - xamp-network
+
+  # Servicio de Nginx
+  nginx:
+    image: nginx:alpine
+    container_name: xamp-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./php/www:/var/www/html
+      - ./nginx/Site:/etc/nginx/conf.d
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - php
+    networks:
+      - xamp-network
+
+  # Servicio de phpMyAdmin
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: xamp-phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    networks:
+      - xamp-network
+
+# Volúmenes y redes
+volumes:
+  mysql_data:
+
+networks:
+  xamp-network:
+    driver: bridge
