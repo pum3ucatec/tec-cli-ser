@@ -1,0 +1,16 @@
+@model MiProyectoActivos.Models.Activo
+
+<h2>Detalles del Activo</h2>
+
+<div>
+    <p><strong>ID:</strong> @Model.Id</p>
+    <p><strong>Nombre:</strong> @Model.Nombre</p>
+    <p><strong>Categoria:</strong> @Model.Categoria</p>
+    <p><strong>Descripcion:</strong> @Model.Descripcion</p>
+    <p><strong>Fecha de Adquisición:</strong> @Model.FechaAdquisicion.ToShortDateString()</p>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Volver</a>
+</p>

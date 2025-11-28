@@ -1,0 +1,22 @@
+@model MiProyectoActivos.Models.Activo
+
+<h2>Eliminar Activo</h2>
+
+<p>¿Está seguro que desea eliminar este activo?</p>
+
+<div>
+    <p><strong>ID:</strong> @Model.Id</p>
+    <p><strong>Nombre:</strong> @Model.Nombre</p>
+    <p><strong>Categoria:</strong> @Model.Categoria</p>
+    <p><strong>Descripcion:</strong> @Model.Descripcion</p>
+    <p><strong>Fecha de Adquisición:</strong> @Model.FechaAdquisicion.ToShortDateString()</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Eliminar definitivamente</button>
+</form>
+
+<p>
+    <a asp-action="Index">Cancelar</a>
+</p>
