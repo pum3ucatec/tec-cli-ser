@@ -1,0 +1,51 @@
+@model IEnumerable<SQLactivos.Models.Activo>
+
+@{
+    ViewData["Title"] = "Lista de Activos";
+}
+
+<div class="container mt-4">
+    <h2>Lista de Activos</h2>
+    
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @ViewBag.Error
+        </div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            No hay activos registrados. La base de datos está funcionando correctamente.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Categoría</th>
+                        <th>Descripción</th>
+                        <th>Fecha Adquisición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Nombre</td>
+                            <td>@item.Categoria</td>
+                            <td>@item.Descripcion</td>
+                            <td>@item.FechaAdquisicion.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
