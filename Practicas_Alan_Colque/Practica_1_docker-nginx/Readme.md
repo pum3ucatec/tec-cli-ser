@@ -16,7 +16,7 @@ mkdir html/images              |    Crea una subcarpeta dentro de html llamada i
 ```Terminal
 docker pull nginx
 ```
-![alt text](/practica-docker-nginx/html/images/Captura%20de%20pantalla%202025-11-16%20145029.png)
+![alt text](/Practicas_Alan_Colque/Practica_1_docker-nginx/html/images/Captura%20de%20pantalla%202025-11-16%20145029.png)
 ---
 
 ### 3. Preparación de Archivos Estáticos
@@ -34,14 +34,14 @@ practica-docker-nginx/
 ```
 Dentro de la carpeta html se debe crear el index.html el cual usted personalizara su contenido
 ```
-![alt text](/practica-docker-nginx/html/images/html%20Alan.png)
+![alt text](/Practicas_Alan_Colque/Practica_1_docker-nginx/html/images/html%20Alan.png)
 ---
 
 ### 5. Ejecución del Contenedor Docker
 ```Terminal
 docker run -d -p 8080:80 --name nginx-container -v "${PWD}\html:/usr/share/nginx/html" nginx  Y verificamos con docker ps
 ```
-![alt text](/practica-docker-nginx/html/images/correrngix.png)
+![alt text](/Practicas_Alan_Colque/Practica_1_docker-nginx/html/images/correrngix.png)
 ---
 
 ---
