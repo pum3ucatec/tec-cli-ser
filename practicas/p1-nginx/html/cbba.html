@@ -23,7 +23,8 @@
     </header>
 
     <main>
-        <section id="inicio" class="hero">
+        <!-- Sección principal con imagen de fondo -->
+        <section id="inicio" class="hero" style="background-image: url('img/fondo.jpg');">
             <div class="hero-content">
                 <h1>Bienvenidos a Cochabamba</h1>
                 <p class="subtitle">"La Llajta" - Ciudad de la Eterna Primavera</p>
@@ -31,6 +32,7 @@
             </div>
         </section>
 
+        <!-- Historia con imagen del Cristo -->
         <section id="historia" class="section">
             <div class="container">
                 <h2>Historia y Cultura</h2>
@@ -46,70 +48,8 @@
                         </ul>
                     </div>
                     <div class="image-content">
-                        <div class="placeholder-image">Imagen del Cristo de la Concordia</div>
+                        <img src="img/cristo.jpg" alt="Cristo de la Concordia" class="imagen-cristo">
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="lugares" class="section bg-light">
-            <div class="container">
-                <h2>Lugares Imperdibles</h2>
-                <div class="cards-grid">
-                    <div class="card">
-                        <h3>Cristo de la Concordia</h3>
-                        <p>Estatua de Cristo más grande del mundo, con 34.20 metros de altura. Ofrece una vista panorámica espectacular de la ciudad.</p>
-                    </div>
-                    <div class="card">
-                        <h3>Palacio Portales</h3>
-                        <p>Majestuosa mansión construida por el magnate del estaño Simón I. Patiño, rodeada de hermosos jardines estilo francés.</p>
-                    </div>
-                    <div class="card">
-                        <h3>Mercado de la Cancha</h3>
-                        <p>Uno de los mercados al aire libre más grandes de Sudamérica, lleno de colores, sabores y tradiciones.</p>
-                    </div>
-                    <div class="card">
-                        <h3>Parque Nacional Tunari</h3>
-                        <p>Área protegida con impresionantes paisajes montañosos, ideal para el trekking y observación de flora y fauna.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="gastronomia" class="section">
-            <div class="container">
-                <h2>Gastronomía Cochabambina</h2>
-                <div class="food-grid">
-                    <div class="food-item">
-                        <h3>🍖 Pique a lo Macho</h3>
-                        <p>Delicioso plato de carne, salchichas, papas fritas y ají.</p>
-                    </div>
-                    <div class="food-item">
-                        <h3>🌽 Choclo con Queso</h3>
-                        <p>Maíz tierno acompañado de queso fresco, un clásico.</p>
-                    </div>
-                    <div class="food-item">
-                        <h3>🥘 Silpancho</h3>
-                        <p>Arroz, papas, carne empanizada y huevo frito.</p>
-                    </div>
-                    <div class="food-item">
-                        <h3>🍹 Mocochinchi</h3>
-                        <p>Bebida tradicional de duraznos secos hervidos.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="galeria" class="section bg-light">
-            <div class="container">
-                <h2>Galería de Imágenes</h2>
-                <div class="gallery">
-                    <div class="gallery-item">Cristo de la Concordia</div>
-                    <div class="gallery-item">Plaza 14 de Septiembre</div>
-                    <div class="gallery-item">Palacio Portales</div>
-                    <div class="gallery-item">Mercado de la Cancha</div>
-                    <div class="gallery-item">Parque Nacional Tunari</div>
-                    <div class="gallery-item">Comida típica</div>
                 </div>
             </div>
         </section>
@@ -118,7 +58,6 @@
     <footer>
         <div class="container">
             <p>&copy; 2024 Cochabamba - La Llajta. Todos los derechos reservados.</p>
-            <p>¡Ven y descubre la magia de nuestra tierra!</p>
         </div>
     </footer>
 
@@ -128,16 +67,6 @@
                 behavior: 'smooth'
             });
         }
-
-        // Efecto de navbar al hacer scroll
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 100) {
-                navbar.style.background = 'rgba(44, 62, 80, 0.95)';
-            } else {
-                navbar.style.background = 'rgba(44, 62, 80, 0.9)';
-            }
-        });
     </script>
 </body>
 </html>
