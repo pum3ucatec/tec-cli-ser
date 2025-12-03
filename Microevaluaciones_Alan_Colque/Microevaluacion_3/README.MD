@@ -50,7 +50,7 @@ Microevaluacion3/
 ├── appsettings.json                   # Configuración de conexión
 └── Microevaluacion3.csproj            # Configuración del proyecto
 ```
-![alt text](/Images/image.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image.png)
 --- 
 ### Paso 1: Creación del Proyecto MVC
 
@@ -99,7 +99,7 @@ dotnet restore
 }
 ```
 
-![alt text](/Images/image2.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image2.png)
 
 ### Paso 4: Creación de Modelos de Datos
 
@@ -121,7 +121,7 @@ Se crearon 3 modelos principales en Models/:
 
 - Propiedades: Id, Code, FirstName, LastName, Title, Type, Department, IsActive
 
-![alt text](/Images/image3.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image3.png)
 
 ### Paso 5: Creación de Controladores API
 Se crearon en Controllers/Api/:
@@ -152,7 +152,7 @@ Se crearon en Controllers/Api/:
 
 - Endpoints especiales: /type/{type}, /department/{department}
 
-![alt text](/Images/image4.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image4.png)
 
 ### Paso 6: Generación de Controladores con Scaffolding
 
@@ -163,7 +163,7 @@ dotnet aspnet-codegenerator controller -name StudentsController -m Student -dc A
 dotnet aspnet-codegenerator controller -name EvaluatorsController -m Evaluator -dc ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --force
 ```
 
-![alt text](/Images/image5.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image5.png)
 
 ### Paso 7: Creación de Migraciones
 
@@ -201,18 +201,18 @@ Ejecutar aplicación
 dotnet run
 ```
 
-![alt text](/Images/image6.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image6.png)
 
 ## Vistas del sistema 
 
 #### Defensas
 
-![alt text](/Images/image7.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image7.png)
 
 ### Apis
 
-![alt text](/Images/image8.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image8.png)
 
 ### Swagger
 
-![alt text](/Images/image9.png)
+![alt text](/Microevaluaciones_Alan_Colque/Microevaluacion_3/Images/image9.png)
