@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microevaluacion3", "Microevaluacion3.csproj", "{F32788EE-10EB-4EF6-4A5B-5A6984E587D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32788EE-10EB-4EF6-4A5B-5A6984E587D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32788EE-10EB-4EF6-4A5B-5A6984E587D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32788EE-10EB-4EF6-4A5B-5A6984E587D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32788EE-10EB-4EF6-4A5B-5A6984E587D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAF33DEA-9F77-4AD2-962D-61DB02FF8E18}
+	EndGlobalSection
+EndGlobal

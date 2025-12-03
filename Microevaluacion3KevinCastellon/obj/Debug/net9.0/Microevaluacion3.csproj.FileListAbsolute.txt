@@ -1,0 +1,415 @@
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\appsettings.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.staticwebassets.runtime.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.staticwebassets.endpoints.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.exe
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.deps.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.runtimeconfig.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.pdb
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.csproj.AssemblyReference.cache
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.AssemblyInfoInputs.cache
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.AssemblyInfo.cs
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.RazorAssemblyInfo.cache
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.RazorAssemblyInfo.cs
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\scopedcss\bundle\Microevaluacion3.styles.css
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\scopedcss\projectbundle\Microevaluacion3.bundle.scp.css
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\mks2k7gk3f-b9sayid5wm.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5uwh92glj7-61n19gt1b8.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\frmon60hdi-xtxxf3hu2r.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\gbw1ob4vm2-bqjiyaj88i.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\iv36v3lm5o-c2jlpeoesf.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\2y93kvjpcc-erw9l3u2r3.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\uxca99nqem-aexeepp0ev.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\jefwy3bs2g-d7shbmvgxk.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\syeu3zx8oj-ausgxo2sd3.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\0nai9uxx7i-k8d9w2qqmf.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\0kf4xa9jty-cosvhxvwiu.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\zkydknx8bz-ub07r2b239.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\pmjgyc9naj-fvhpjtyr6v.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\6wjd15fd7a-b7pk76d08c.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\bt498utbvl-fsbi9cje9m.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5er32hdd4y-rzd6atqjts.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\725sc9znym-ee0r1s7dh0.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ggi52por2j-dxx9fxp4il.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ott81q70xe-jd9uben2k1.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\l85qcnm0bx-khv3u5hwcm.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\7cof7l15gv-r4e9w2rdcm.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ijtbnevgli-lcd1t2u6c8.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ggwy9jlbcw-c2oey78nd0.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\15incgv11e-tdbxkamptv.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\lru723wik2-j5mq2jizvt.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\2endgkz8ss-06098lyss8.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\3a73y9pwum-nvvlpmu67g.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\gxfgj2fczl-s35ty4nyc5.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\jt6d98gelo-pj5nd1wqec.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\10gpu3cv00-46ein0sx1k.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\fggxiawyw6-v0zj4ognzu.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5ge26rnd3d-37tfw0ft22.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\02rnca6bgk-hrwsygsryq.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\7rt9w8rmx1-pk9g2wxc8p.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\xwtwr6c19h-ft3s53vfgj.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\isjx2dbsag-6cfz1n2cew.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\qo2ykjgyor-6pdc2jztkx.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\nuovi4l49n-493y06b0oq.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\vk7j6qkgml-iovd86k7lj.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\c42sgfkch1-vr1egmr9el.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\18bqc69qa9-kbrnm935zg.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5a2xme45y3-jj8uyg4cgr.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\cqh2nnf5ob-y7v9cxd14o.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\llph98sc6s-notf2xhcfb.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\oa9j4j8v07-h1s4sie4z3.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\mtuwmkgdvv-63fj8s7r0e.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\7mekzdlghu-0j3bgjxly4.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\o5rpaxje6d-47otxtyo56.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\sri47g3ccc-4v8eqarkd7.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\f7fnqdiukp-356vix0kms.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\6np01oruqv-83jwlth58m.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ahqr1u51xv-mrlpezrjn3.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5l7116s19p-lzl9nlhx6b.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5skim3wujs-ag7o75518u.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ba36dpbyio-x0q3zqp4vz.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\nnaw0a30rx-0i3buxo5is.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\77l6p69gxt-o1o13a6vjx.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\1p8cwpd26f-ttgo8qnofa.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ads6qoa490-2z0ns9nrw6.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\wgwh3viy2p-muycvpuwrr.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\v76r00xjjd-87fc7y1x7t.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\8n0lafprhm-mlv21k5csn.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\b3xc8vhwrd-f47kq63e5y.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\p2e6fx36bn-f47kq63e5y.gz
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets\msbuild.Microevaluacion3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets\msbuild.Microevaluacion3.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets\msbuild.build.Microevaluacion3.props
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Microevaluacion3.props
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Microevaluacion3.props
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microeva.C0BE2CD7.Up2Date
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\refint\Microevaluacion3.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.pdb
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.genruntimeconfig.cache
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\ref\Microevaluacion3.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Humanizer.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\appsettings.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.staticwebassets.runtime.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.staticwebassets.endpoints.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.exe
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.deps.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.runtimeconfig.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microevaluacion3.pdb
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.RazorAssemblyInfo.cache
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.RazorAssemblyInfo.cs
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\scopedcss\bundle\Microevaluacion3.styles.css
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\scopedcss\projectbundle\Microevaluacion3.bundle.scp.css
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\mks2k7gk3f-b9sayid5wm.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5uwh92glj7-61n19gt1b8.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\frmon60hdi-xtxxf3hu2r.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\gbw1ob4vm2-bqjiyaj88i.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\iv36v3lm5o-c2jlpeoesf.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\2y93kvjpcc-erw9l3u2r3.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\uxca99nqem-aexeepp0ev.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\jefwy3bs2g-d7shbmvgxk.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\syeu3zx8oj-ausgxo2sd3.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\0nai9uxx7i-k8d9w2qqmf.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\0kf4xa9jty-cosvhxvwiu.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\zkydknx8bz-ub07r2b239.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\pmjgyc9naj-fvhpjtyr6v.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\6wjd15fd7a-b7pk76d08c.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\bt498utbvl-fsbi9cje9m.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5er32hdd4y-rzd6atqjts.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\725sc9znym-ee0r1s7dh0.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ggi52por2j-dxx9fxp4il.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ott81q70xe-jd9uben2k1.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\l85qcnm0bx-khv3u5hwcm.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\7cof7l15gv-r4e9w2rdcm.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ijtbnevgli-lcd1t2u6c8.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ggwy9jlbcw-c2oey78nd0.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\15incgv11e-tdbxkamptv.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\lru723wik2-j5mq2jizvt.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\2endgkz8ss-06098lyss8.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\3a73y9pwum-nvvlpmu67g.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\gxfgj2fczl-s35ty4nyc5.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\jt6d98gelo-pj5nd1wqec.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\10gpu3cv00-46ein0sx1k.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\fggxiawyw6-v0zj4ognzu.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5ge26rnd3d-37tfw0ft22.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\02rnca6bgk-hrwsygsryq.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\7rt9w8rmx1-pk9g2wxc8p.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\xwtwr6c19h-ft3s53vfgj.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\isjx2dbsag-6cfz1n2cew.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\qo2ykjgyor-6pdc2jztkx.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\nuovi4l49n-493y06b0oq.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\vk7j6qkgml-iovd86k7lj.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\c42sgfkch1-vr1egmr9el.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\18bqc69qa9-kbrnm935zg.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5a2xme45y3-jj8uyg4cgr.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\cqh2nnf5ob-y7v9cxd14o.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\llph98sc6s-notf2xhcfb.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\oa9j4j8v07-h1s4sie4z3.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\mtuwmkgdvv-63fj8s7r0e.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\7mekzdlghu-0j3bgjxly4.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\o5rpaxje6d-47otxtyo56.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\sri47g3ccc-4v8eqarkd7.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\f7fnqdiukp-356vix0kms.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\6np01oruqv-83jwlth58m.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ahqr1u51xv-mrlpezrjn3.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5l7116s19p-lzl9nlhx6b.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\5skim3wujs-ag7o75518u.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ba36dpbyio-x0q3zqp4vz.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\nnaw0a30rx-0i3buxo5is.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\77l6p69gxt-o1o13a6vjx.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\1p8cwpd26f-ttgo8qnofa.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\ads6qoa490-2z0ns9nrw6.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\wgwh3viy2p-muycvpuwrr.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\v76r00xjjd-87fc7y1x7t.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\8n0lafprhm-mlv21k5csn.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\b3xc8vhwrd-f47kq63e5y.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\compressed\p2e6fx36bn-f47kq63e5y.gz
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microeva.C0BE2CD7.Up2Date
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\refint\Microevaluacion3.dll
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.pdb
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\Microevaluacion3.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\Microevaluacion 2\Microevaluacion3\obj\Debug\net9.0\ref\Microevaluacion3.dll

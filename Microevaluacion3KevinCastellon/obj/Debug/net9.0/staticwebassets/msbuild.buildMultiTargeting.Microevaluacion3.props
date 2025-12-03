@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Microevaluacion3.props" />
+</Project>
