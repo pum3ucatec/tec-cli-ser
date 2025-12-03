@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using e3_csharp.Data;
 
@@ -10,9 +11,11 @@ using e3_csharp.Data;
 namespace e3_csharp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251122000920_AddCareer1")]
+    partial class AddCareer1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,8 +24,6 @@ namespace e3_csharp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-<<<<<<< HEAD
-=======
             modelBuilder.Entity("e3_csharp.Models.Career", b =>
                 {
                     b.Property<int>("ID")
@@ -48,7 +49,6 @@ namespace e3_csharp.Migrations
                     b.ToTable("Careers");
                 });
 
->>>>>>> c39066d9d6c1d01b3a2bf1fc75add312f9e3e5a5
             modelBuilder.Entity("e3_csharp.Models.Classroom", b =>
                 {
                     b.Property<int>("ID")

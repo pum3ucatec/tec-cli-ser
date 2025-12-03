@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -19,6 +20,17 @@
   </PropertyGroup>
 
 >>>>>>> 1f9b9dd5ca83d16023ffe4cf7c2ee32b93e8ff28
+=======
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>e3_csharp</RootNamespace>
+  </PropertyGroup>
+
+>>>>>>> c39066d9d6c1d01b3a2bf1fc75add312f9e3e5a5
   <ItemGroup>
     <PackageReference Include="bootstrap" Version="5.3.5" />
     <PackageReference Include="DotNetEnv" Version="3.1.1" />
@@ -38,6 +50,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
 <<<<<<< HEAD
+<<<<<<< HEAD
   </ItemGroup>
 
 </Project>
@@ -46,3 +59,8 @@
 
 </Project>
 >>>>>>> 1f9b9dd5ca83d16023ffe4cf7c2ee32b93e8ff28
+=======
+  </ItemGroup>
+
+</Project>
+>>>>>>> c39066d9d6c1d01b3a2bf1fc75add312f9e3e5a5
