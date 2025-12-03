@@ -3,7 +3,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using e3_csharp.Models;
 
-namespace e3_csharp.Controllers;
+namespace MiProyectoMVC.Controllers;
 
 public class HomeController : Controller
 {
@@ -35,7 +35,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using e3_csharp.Models;
 
-namespace e3_csharp.Controllers;
+namespace MiProyectoMVC.Controllers;
 
 public class HomeController : Controller
 {

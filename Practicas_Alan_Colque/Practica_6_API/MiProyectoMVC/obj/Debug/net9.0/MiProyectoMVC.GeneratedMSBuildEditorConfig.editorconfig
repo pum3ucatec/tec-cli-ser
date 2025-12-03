@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiProyectoMVC
+build_property.RootNamespace = MiProyectoMVC
+build_property.ProjectDir = C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\tec-cli-ser-AlanColque-Practica4\Practicas_Alan_Colque\Practica_6_API\MiProyectoMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ALAN\OneDrive\Desktop\Documentos alan\Tareas Cliente Servidor\tec-cli-ser-AlanColque-Practica4\Practicas_Alan_Colque\Practica_6_API\MiProyectoMVC
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Career/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZWVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Career/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZWVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Career/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZWVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Career/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZWVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Career/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Classroom/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Classroom/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Classroom/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Classroom/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Classroom/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Person/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Subject/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Subject/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Subject/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Subject/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Subject/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALAN/OneDrive/Desktop/Documentos alan/Tareas Cliente Servidor/tec-cli-ser-AlanColque-Practica4/Practicas_Alan_Colque/Practica_6_API/MiProyectoMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jeg3itm05f

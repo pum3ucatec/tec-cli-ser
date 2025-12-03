@@ -1,0 +1,84 @@
+﻿<!-- Agregar en Views/Home/Index.cshtml, después de la sección de estadísticas -->
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-dark text-white">
+                <h5 class="mb-0"><i class="bi bi-rocket-takeoff"></i> Prueba las APIs en Vivo</h5>
+            </div>
+            <div class="card-body">
+                <div id="api-demo-container">
+                    <p class="card-text">
+                        Prueba las APIs REST directamente desde el navegador usando JavaScript.
+                    </p>
+                    
+                    <div class="mb-3">
+                        <h6>Ejemplos de código:</h6>
+                        <pre class="bg-light p-3 rounded"><code>
+// Obtener todas las defensas
+DefenseApi.getAllDefenses()
+    .then(defenses => console.log(defenses));
+
+// Crear nuevo estudiante
+DefenseApi.createStudent({
+    code: "NEW001",
+    firstName: "Nuevo",
+    lastName: "Estudiante",
+    career: "Computer Science",
+    semester: 8
+});
+
+// Obtener estadísticas
+DefenseApi.getSystemStats()
+    .then(stats => console.log(stats));
+                        </code></pre>
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <h6><i class="bi bi-terminal"></i> Consola del Navegador</h6>
+                        <p class="mb-0">
+                            Abre las herramientas de desarrollo (F12) y ve a la pestaña "Console".
+                            Allí puedes ejecutar los comandos de arriba para probar las APIs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Incluir los scripts JavaScript -->
+<script src="~/js/api-consumer.js"></script>
+<script src="~/js/api-demo.js"></script>
+
+<script>
+    // Ejemplo automático al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('🌐 APIs disponibles:');
+        console.log('- DefenseApi.getAllDefenses()');
+        console.log('- DefenseApi.getAllStudents()');
+        console.log('- DefenseApi.getAllEvaluators()');
+        console.log('- DefenseApi.getSystemStats()');
+        console.log('📚 Más métodos en: /api/docs');
+        
+        // Cargar estadísticas automáticamente
+        setTimeout(() => {
+            DefenseApi.getSystemStats()
+                .then(stats => {
+                    console.log('📊 Estadísticas del sistema:', stats);
+                    
+                    // Actualizar UI si hay elementos con estos IDs
+                    if (document.getElementById('live-stats')) {
+                        document.getElementById('live-stats').innerHTML = `
+                            <div class="row">
+                                <div class="col-4">Defensas: ${stats.totalDefenses}</div>
+                                <div class="col-4">Estudiantes: ${stats.totalStudents}</div>
+                                <div class="col-4">Evaluadores: ${stats.totalEvaluators}</div>
+                            </div>
+                        `;
+                    }
+                })
+                .catch(console.error);
+        }, 1000);
+    });
+</script>

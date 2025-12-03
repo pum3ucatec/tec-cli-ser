@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using e3_csharp.Data;
 using e3_csharp.Models;
 
-namespace e3_csharp.Controllers
+namespace MiProyectoMVC.Controllers
 {
     public class SubjectController : Controller
     {
@@ -167,7 +167,7 @@ using Microsoft.EntityFrameworkCore;
 using e3_csharp.Data;
 using e3_csharp.Models;
 
-namespace e3_csharp.Controllers
+namespace MiProyectoMVC.Controllers
 {
     public class SubjectController : Controller
     {
