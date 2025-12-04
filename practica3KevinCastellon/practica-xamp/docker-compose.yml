@@ -1,0 +1,59 @@
+﻿version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: xamp-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: app_db
+      MYSQL_USER: app_user
+      MYSQL_PASSWORD: userpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - xamp-network
+
+  php:
+    image: php:8.2-fpm
+    container_name: xamp-php
+    restart: unless-stopped
+    volumes:
+      - ./php/www:/var/www/html
+    networks:
+      - xamp-network
+
+  nginx:
+    image: nginx:alpine
+    container_name: xamp-nginx
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    volumes:
+      - ./php/www:/var/www/html
+      - ./nginx/sites:/etc/nginx/conf.d
+    networks:
+      - xamp-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: xamp-phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "8080:80"
+    networks:
+      - xamp-network
+
+networks:
+  xamp-network:
+    driver: bridge
+
+volumes:
+  mysql_data:
