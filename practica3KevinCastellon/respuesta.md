@@ -10,7 +10,7 @@ MySQL 8.0 como base de datos
 phpMyAdmin para administración de MySQL
 
 ### 📁 Estructura del Proyecto
-
+```sh
 practica-xamp/
 ├── 📄 docker-compose.yml          # Configuración principal
 ├── 📄 README.md                   # Documentación
@@ -23,7 +23,7 @@ practica-xamp/
 │       ├── 📄 info.php           # Información PHP
 │       └── 📄 test-mysql.php     # Prueba de conexión MySQL
 └── 📁 screenshots/               # Capturas de evidencia
-
+```
 ###🚀 Instalación y Ejecución Rápida
 
 # 1. Requisitos Previos
