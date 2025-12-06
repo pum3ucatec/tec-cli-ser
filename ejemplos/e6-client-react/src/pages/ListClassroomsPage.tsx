@@ -38,9 +38,9 @@ const DataPage = () => {
     <div className="container mx-auto px-4 py-8">
       <div className="mb-4">
         {/* Botón o enlace para crear una nueva persona */}
-        <Link to="/classroom/create">
+        <Link to="/classrooms/create">
           <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700">
-            Crear Nueva Materia
+            Crear Nueva Aula
           </button>
         </Link>
       </div>

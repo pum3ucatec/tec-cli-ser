@@ -27,7 +27,7 @@ const ClassroomsDataTable = ({ data }: DataTableProps) => {
               <td className="py-2 px-4 border-b text-center">{item.name}</td>
               <td className="py-2 px-4 border-b">{item.status}</td>
               <td className="py-2 px-4 border-b text-center">
-                <Link to={`/edit/${item.id}`} className="text-blue-500 hover:text-blue-700">
+                <Link to={`/classrooms/edit/${item.id}`} className="text-blue-500 hover:text-blue-700">
                   Editar
                 </Link>
               </td>
