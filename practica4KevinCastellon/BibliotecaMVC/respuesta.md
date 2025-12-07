@@ -369,32 +369,6 @@ dotnet clean
 
 ---
 
-## 🐛 Solución de Problemas
-
-### Error: "Cannot connect to database"
-
-**Solución:**
-1. Verifica que SQL Server esté ejecutándose
-2. Revisa la cadena de conexión en `appsettings.json`
-3. Prueba la conexión con SSMS
-
-### Error: "Invalid column name"
-
-**Solución:**
-```bash
-dotnet ef database drop --force
-dotnet ef migrations add InitialCreate
-dotnet ef database update
-```
-
-### Error: "Build failed"
-
-**Solución:**
-```bash
-dotnet clean
-dotnet restore
-dotnet build
-```
 
 ### Puerto ocupado
 
@@ -402,15 +376,6 @@ dotnet build
 
 ---
 
-## 📝 Notas Importantes
-
-- 🔐 La aplicación usa autenticación de Windows por defecto
-- 🎨 El diseño es responsivo gracias a Bootstrap 5
-- 🔄 Las operaciones son asíncronas para mejor rendimiento
-- ✅ Incluye validaciones tanto en cliente como en servidor
-- 🛡️ Protegido contra ataques CSRF
-
----
 
 ## 👨‍💻 Autor
 
@@ -418,47 +383,22 @@ dotnet build
 
 ---
 
-## 📄 Licencia
-
-Este proyecto es de uso educativo.
-
----
 
 ## 📸 Capturas de Pantalla
 
 ### Pantalla Principal - Lista de Libros
-![Lista de Libros](screenshots/lista-libros.png)
+![Lista de Libros](evidencia1.png)
 
-### Formulario de Creación
-![Crear Libro](screenshots/crear-libro.png)
+### 
+![Crear Libro](evidencia2.png)
 
-### Formulario de Edición
-![Editar Libro](screenshots/editar-libro.png)
+### 
+![Editar Libro](evidencia3.png)
 
-### Confirmación de Eliminación
-![Eliminar Libro](screenshots/eliminar-libro.png)
+### 
+![Eliminar Libro](evidencia4.png)
 
-### Diagrama de Arquitectura MVC
-![Arquitectura MVC](screenshots/arquitectura-mvc.png)
+### 
+![Arquitectura MVC](evidencia5.png)
 
-### Estructura de Base de Datos
-![Base de Datos](screenshots/base-datos.png)
 
----
-
-## 🔗 Enlaces Útiles
-
-- [Documentación de ASP.NET Core](https://docs.microsoft.com/aspnet/core)
-- [Entity Framework Core](https://docs.microsoft.com/ef/core)
-- [SQL Server Documentation](https://docs.microsoft.com/sql)
-- [Bootstrap 5](https://getbootstrap.com)
-
----
-
-## 📞 Contacto
-
-Si tienes preguntas o sugerencias, no dudes en contactarme.
-
----
-
-**¡Gracias por usar este sistema! 🚀**
