@@ -128,17 +128,3 @@ Acceso: Entra a https://localhost:XXXX/swagger
 Usa el botón azul GET para ver si se guardó.
 
 ![alt text](./Images/image5.png)
-
-✅ Prueba 2: CareerApi (Carreras)
-Busca la sección CareerApi.
-
-POST: Crea una carrera nueva (Ejemplo: "Ingeniería de Sistemas").
-
-JSON
-
-{
-  "name": "Ingeniería de Sistemas",
-  "description": "Desarrollo de Software",
-  "status": true
-}
-GET: Ejecútalo para confirmar que la carrera tiene asignado un ID (probablemente el 1).
