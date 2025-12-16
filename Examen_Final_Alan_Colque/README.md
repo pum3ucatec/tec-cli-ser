@@ -10,6 +10,42 @@ Este repositorio contiene la implementación profesional de un sistema Cliente-S
 | **SQL Server** | Base de datos relacional. | `Get-Service "MSSQL$SQLEXPRESS"` |
 | **VS Code** | Editor de código recomendado. | `code --version` |
 
+## Estructura
+
+```
+/Examen_Final
+│
+├── /PlayerAPI                 (🟥 BACKEND - .NET 8 Web API)
+│   ├── /Controllers
+│   │   └── JugadoresController.cs   <-- Recibe peticiones (GET, POST, PUT, DELETE)
+│   ├── /Data
+│   │   └── AppDbContext.cs          <-- Puente entre C# y SQL Server
+│   ├── /Models
+│   │   └── Jugador.cs               <-- Definición de los 5 campos (Id, Nombre, etc.)
+│   ├── /Properties
+│   │   └── launchSettings.json      <-- Configura el puerto 5000
+│   ├── appsettings.json             <-- Cadena de conexión a Base de Datos
+│   ├── PlayerAPI.csproj             <-- Lista de librerías (Entity Framework, etc.)
+│   └── Program.cs                   <-- Configuración de CORS e Inyección de Dependencias
+│
+└── /PlayerClient              (🟦 FRONTEND - React + Vite)
+    ├── /node_modules                <-- Librerías instaladas (Bootstrap, Axios, etc.)
+    ├── /public
+    ├── /src
+    │   ├── /components
+    │   │   └── /players
+    │   │       ├── Create.jsx       <-- Formulario de Alta
+    │   │       ├── Edit.jsx         <-- Formulario de Edición
+    │   │       └── List.jsx         <-- Tabla de Jugadores
+    │   ├── App.jsx                  <-- Definición de Rutas (Navegación)
+    │   ├── main.jsx                 <-- Punto de entrada e importación de Bootstrap
+    │   └── index.css
+    ├── index.html
+    ├── package.json                 <-- Configuración de NPM y scripts
+    └── vite.config.js               <-- Configuración del servidor de desarrollo (Vite)
+```
+---
+
 ## Guía de Implementación Paso a Paso
 
 1. Crear la solución (Backend)
