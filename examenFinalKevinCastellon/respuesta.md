@@ -27,8 +27,8 @@ El sistema permite realizar operaciones CRUD completas sobre jugadores de fútbo
 ---
 
 ## 🗂️ Estructura del Proyecto
+```sh
 
-\`\`\`
 proyecto-futbol/
 ├── backend/
 │   └── FutbolAPI/
@@ -43,8 +43,8 @@ proyecto-futbol/
     │   ├── App.jsx              # Componente principal React
     │   └── App.css              # Estilos de la aplicación
     └── package.json             # Dependencias de Node.js
-\`\`\`
 
+```
 ---
 
 ## 📊 Modelo de Datos
@@ -73,33 +73,38 @@ proyecto-futbol/
 
 ### Paso 1: Clonar o Descargar el Proyecto
 
-\`\`\`bash
+```sh bash
 cd proyecto-futbol
-\`\`\`
+```
 
 ### Paso 2: Configurar el Backend
 
-\`\`\`bash
+
 # Navegar a la carpeta del backend
+```sh
 cd backend/FutbolAPI
-
+```
 # Restaurar paquetes NuGet
+```sh
 dotnet restore
-
+```
 # Crear la base de datos con migraciones
+```sh
 dotnet ef migrations add InitialCreate
 dotnet ef database update
-\`\`\`
+```
 
 ### Paso 3: Configurar el Frontend
 
-\`\`\`bash
-# Navegar a la carpeta del frontend
-cd ../../frontend
 
+# Navegar a la carpeta del frontend
+```sh
+cd ../../frontend
+```
 # Instalar dependencias
+```sh
 npm install
-\`\`\`
+```
 
 ---
 
@@ -107,24 +112,24 @@ npm install
 
 ### Terminal 1: Ejecutar el Backend (API)
 
-\`\`\`bash
+```sh
 cd backend/FutbolAPI
 dotnet run --no-launch-profile --urls "http://localhost:5000"
-\`\`\`
+```
 
 **Salida esperada:**
-\`\`\`
+```sh
 🚀 API iniciada en http://localhost:5000
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://localhost:5000
-\`\`\`
+```
 
 ### Terminal 2: Ejecutar el Frontend (React)
 
-\`\`\`bash
+```sh
 cd frontend
 npm start
-\`\`\`
+```
 
 **Se abrirá automáticamente:** \`http://localhost:3000\`
 
@@ -198,12 +203,12 @@ npm start
 ## 🌐 Endpoints de la API
 
 ### Obtener Todos los Jugadores
-\`\`\`http
+```sh
 GET http://localhost:5000/api/jugadores
-\`\`\`
+```
 
 **Respuesta:**
-\`\`\`json
+```sh
 [
   {
     "id": 1,
@@ -214,10 +219,10 @@ GET http://localhost:5000/api/jugadores
     "numero": 10
   }
 ]
-\`\`\`
+```
 
 ### Crear Jugador
-\`\`\`http
+```sh
 POST http://localhost:5000/api/jugadores
 Content-Type: application/json
 
@@ -228,10 +233,10 @@ Content-Type: application/json
   "equipo": "Al Nassr",
   "numero": 7
 }
-\`\`\`
+```
 
 ### Actualizar Jugador
-\`\`\`http
+```sh
 PUT http://localhost:5000/api/jugadores/1
 Content-Type: application/json
 
@@ -243,31 +248,33 @@ Content-Type: application/json
   "equipo": "Inter Miami",
   "numero": 10
 }
-\`\`\`
+```
 
 ### Eliminar Jugador
-\`\`\`http
+```sh
 DELETE http://localhost:5000/api/jugadores/1
-\`\`\`
+```
 
 
 
 ## 🐛 Solución de Problemas Comunes
 
 ### Error: "No se puede conectar a SQL Server"
-\`\`\`bash
-# Verificar que SQL Server esté corriendo
-Get-Service -Name MSSQLSERVER
 
+# Verificar que SQL Server esté corriendo
+```sh
+Get-Service -Name MSSQLSERVER
+```
 # Iniciar el servicio
+```sh
 Start-Service -Name MSSQLSERVER
-\`\`\`
+```
 
 ### Error: "Puerto 5000 ya en uso"
-\`\`\`bash
+```sh
 # Usar otro puerto
 dotnet run --urls "http://localhost:5001"
-
+```
 
 
 
