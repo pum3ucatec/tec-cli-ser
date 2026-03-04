@@ -9,6 +9,7 @@ import EditSubjectPage from '../pages/EditSubjectPage';
 import ListClassroomsPage from '../pages/ListClassroomsPage';
 import CreateClassroomPage from '../pages/CreateClassroomPage';
 import EditClassroomPage from '../pages/EditClassroomPage';
+import ListTeacherPage from '../pages/teacher/List';
 
 export const router = createBrowserRouter([
   {
@@ -47,4 +48,8 @@ export const router = createBrowserRouter([
     path: "/classrooms/edit/:id",
     element: <EditClassroomPage />,
   },
+  {
+    path: "/teachers",
+    element: <ListTeacherPage />
+  }
 ]);

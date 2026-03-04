@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver_bd
+    platform: linux/amd64
+    ports:
+      - "1434:1433"
+    environment:
+      SA_PASSWORD: ${SA_PASSWORD}
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      - ./e4-sqlserver/backups:/var/opt/mssql/backups
+    restart: "no"
+
+  backend:
+    build:
+      context: ./e3-csharp
+      dockerfile: Dockerfile
+    container_name: backend_api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: "http://+:5000"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=YourDb;User=sa;Password=${SA_PASSWORD};TrustServerCertificate=True;"
+    ports:
+      - "5000:5000"
+    depends_on:
+      - sqlserver
+
+  frontend:
+    build:
+      context: ./e6-client-react
+      dockerfile: Dockerfile
+    container_name: frontend_app
+    ports:
+      - "3000:80"    # mapea 80 del contenedor (nginx) a 3000 de host
+    depends_on:
+      - backend
+
+volumes:
+  sqlserver_data:

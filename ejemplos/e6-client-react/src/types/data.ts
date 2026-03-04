@@ -18,3 +18,11 @@ export interface Classroom {
   name: string;
   status: string;
 }
+
+export interface Teacher {
+  id: number;
+  firstName: string;
+  lastName: string;
+  email: string;
+  hireDate: string;
+}
