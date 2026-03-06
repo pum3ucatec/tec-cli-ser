@@ -12,7 +12,7 @@ export const getTeachers = async () => {
 export const getTeacher = (id: number) => api.get<Teacher>(`/TeacherApi/${id}`);
 
 export const createTeacher = (teacher: Omit<Teacher, 'id'>) => {
-  return api.post('/PersonsApi', teacher);
+  return api.post('/TeacherApi', teacher);
 };
 
 export const updateTeacher = (id: number, teacher: Teacher) => api.put(`/TeacherApi/${id}`, teacher);
